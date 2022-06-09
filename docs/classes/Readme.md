@@ -1,0 +1,160 @@
+---
+layout: page
+title: Docs
+---
+
+See below for a list of all available classes available in the Fraymakers API.
+
+### Entity
+
+- [AiGraphNode](classes/AiGraphNode.md)
+- [Assist](classes/Assist.md)
+- [Character](classes/Character.md)
+- [CollisionArea](classes/CollisionArea.md)
+- [CustomGameObject](classes/CustomGameObject.md)
+- [CustomLineSegmentStructure](classes/CustomLineSegmentStructure.md)
+- [Entity](classes/Entity.md)
+- [GameObject](classes/GameObject.md)
+- [Item](classes/Item.md)
+- [Light](classes/Light.md)
+- [LineSegmentStructure](classes/LineSegmentStructure.md)
+- [Projectile](classes/Projectile.md)
+- [RectCollisionArea](classes/RectCollisionArea.md)
+- [RectStructure](classes/RectStructure.md)
+- [Stage](classes/Stage.md)
+- [Structure](classes/Structure.md)
+- [Vfx](classes/Vfx.md)
+
+### Stats
+
+- [AnimationStats](classes/AnimationStats.md)
+- [AssistAnimationStats](classes/AssistAnimationStats.md)
+- [AssistStats](classes/AssistStats.md)
+- [CharacterStats](classes/CharacterStats.md)
+- [CharacterAnimationStats](classes/CharacterAnimationStats.md)
+- [CollisionAreaStats](classes/CollisionAreaStats.md)
+- [GameObjectStats](classes/GameObjectStats.md)
+- [HitboxStats](classes/HitboxStats.md)
+- [ProjectileAnimationStats](classes/ProjectileAnimationStats.md)
+- [ProjectileStats](classes/ProjectileStats.md)
+- [StructureStats](classes/StructureStats.md)
+- [StatsFile](classes/StatsFile.md)
+- [StageShadowLayerStats](classes/StageShadowLayerStats.md)
+- [StageStats](classes/StageStats.md)
+- [StructureStats](classes/StructureStats.md)
+- [VfxStats](classes/VfxStats.md)
+
+### Constants
+
+- [AnimationEndType](classes/AnimationEndType.md)
+- [AttackElement](classes/AttackElement.md)
+- [AttackLimb](classes/AttackLimb.md)
+- [AttackStrength](classes/AttackStrength.md)
+- [BodyStatus](classes/BodyStatus.md)
+- [Buttons](classes/Buttons.md)
+- [CharacterActions](classes/CharacterActions.md)
+- [CollisionBoxType](classes/CollisionBoxType.md)
+- [CState](classes/CState.md)
+- [CStateGroup](classes/CStateGroup.md)
+- [DisplayMode](classes/DisplayMode.md)
+- [EntityType](classes/EntityType.md)
+- [GlobalSfx](classes/GlobalSfx.md)
+- [GlobalVfx](classes/GlobalVfx.md)
+- [GrabAirType](classes/GrabAirType.md)
+- [IState](classes/IState.md)
+- [JabResetType](classes/JabResetType.md)
+- [LandType](classes/LandType.md)
+- [ParallaxMode](classes/ParallaxMode.md)
+- [PState](classes/PState.md)
+- [ShakeDecayType](classes/ShakeDecayType.md)
+- [ShakeWaveType](classes/ShakeWaveType.md)
+- [SpecialAngle](classes/SpecialAngle.md)
+- [StatusEffectType](classes/StatusEffectType.md)
+- [StrongInputType](classes/StrongInputType.md)
+- [StructureType](classes/StructureType.md)
+- [TumbleType](classes/TumbleType.md)
+
+### Gameplay
+
+- [AudioClip](classes/AudioClip.md)
+- [BodyStatusTimer](classes/BodyStatusTimer.md)
+- [Camera](classes/Camera.md)
+- [CharacterAiScript](classes/CharacterAiScript.md)
+- [CollisionBox](classes/CollisionBox.md)
+- [CollisionResult](classes/CollisionResult.md)
+- [ControlsObject](classes/ControlsObject.md)
+- [GameTimer](classes/GameTimer.md)
+- [Match](classes/Match.md)
+- [MatchSettingsConfig](classes/MatchSettingsConfig.md)
+- [OffscreenIndicator](classes/OffscreenIndicator.md)
+- [PlayerConfig](classes/PlayerConfig.md)
+- [Score](classes/Score.md)
+- [Stage](classes/Stage.md)
+- [StatusEffect](classes/StatusEffect.md)
+
+### Global Utilities
+
+- [DisplaySettings](classes/DisplaySettings.md)
+- [EaseTimer](classes/EaseTimer.md)
+- [Engine](classes/Engine.md)
+- [Flags](classes/Flags.md)
+- [FrameTimer](classes/FrameTimer.md)
+- [GraphicsSettings](classes/GraphicsSettings.md)
+- [IntMap](classes/IntMap.md)
+- [Math](classes/Math.md)
+- [Matrix](classes/Matrix.md)
+- [Point](classes/Point.md)
+- [Random](classes/Random.md)
+- [Rectangle](classes/Rectangle.md)
+- [StringMap](classes/StringMap.md)
+
+### Display
+
+- [Container](classes/Container.md)
+- [DisplacementFilter](classes/DisplacementFilter.md)
+- [DisplayObject](classes/DisplayObject.md)
+- [Drawable](classes/Drawable.md)
+- [Filter](classes/Filter.md)
+- [GlowFilter](classes/GlowFilter.md)
+- [HsbcColorFilter](classes/HsbcColorFilter.md)
+- [Mask](classes/Mask.md)
+- [MaskFilter](classes/MaskFilter.md)
+- [NineSlice](classes/NineSlice.md)
+- [PaletteSwapShader](classes/PaletteSwapShader.md)
+- [RgbaColorShader](classes/RgbaColorShader.md)
+- [RibbonTrail](classes/RibbonTrail.md)
+- [Shader](classes/Shader.md)
+- [Sprite](classes/Sprite.md)
+- [StrokeFilter](classes/StrokeFilter.md)
+- [Tile](classes/Tile.md)
+
+### Events
+
+- [AssistEvent](classes/AssistEvent.md)
+- [CameraEvent](classes/CameraEvent.md)
+- [CharacterEvent](classes/CharacterEvent.md)
+- [CustomEvent](classes/CustomEvent.md)
+- [EntityEvent](classes/EntityEvent.md)
+- [GameObjectEvent](classes/GameObjectEvent.md)
+- [GameTimerEvent](classes/GameTimerEvent.md)
+- [LobbyEvent](classes/LobbyEvent.md)
+- [MatchEvent](classes/MatchEvent.md)
+- [ScoreEvent](classes/ScoreEvent.md)
+- [StructureEvent](classes/StructureEvent.md)
+
+### Other
+
+- [ApiObject](classes/ApiObject.md)
+- [ApiVarArray](classes/ApiVarArray.md)
+- [ApiVarBool](classes/ApiVarBool.md)
+- [ApiVarFloat](classes/ApiVarFloat.md)
+- [ApiVarInt](classes/ApiVarInt.md)
+- [ApiVarObject](classes/ApiVarObject.md)
+- [ApiVarString](classes/ApiVarString.md)
+- [Accessibility](classes/Accessibility.md)
+- [ADisposable](classes/ADisposable.md)
+- [DisplaySettings](classes/DisplaySettings.md)
+- [GraphicsSettings](classes/GraphicsSettings.md)
+- [Resource](classes/Resource.md)
+- [StatsFile](classes/StatsFile.md)
+
