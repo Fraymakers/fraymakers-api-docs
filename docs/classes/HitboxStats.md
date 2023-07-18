@@ -27,7 +27,7 @@ title: HitboxStats
 | hitstopMultiplier | Float | `1.0` | Multiplier that affects both hitstop and selfHitstop. |
 | hitstopNudgeMultiplier | Float | `1` | Multiplier for how far foes can nudge while in hitstop. |
 | hitstopOffset | Int | `0` | Used in conjunction with a negative hitstop stat, adds a flat amount of hitstop independent of how hitstop is calculated. |
-| hitstun | Int | `-1` | How long the foe will be unable to attack after knockback is applied. When positive, this is the number of frames the foe will remain in hitstun. When negative, this works like a multiplier against the automatically calculated hitstun value. For example, a value of -0.5 would result in a multiplier of 0.5 against the calculated hitstun. By leaving it at its default of -1, you will get 100% of the calculated hitstun. |
+| hitstun | Float | `-1` | How long the foe will be unable to attack after knockback is applied. When positive, this is the number of frames the foe will remain in hitstun. When negative, this works like a multiplier against the automatically calculated hitstun value. For example, a value of -0.5 would result in a multiplier of 0.5 against the calculated hitstun. By leaving it at its default of -1, you will get 100% of the calculated hitstun. |
 | index | Int | `-1` | The numerical index of the hitbox that can be used to identify which hitbox was involved in a hit. |
 | jabResetType | Int | `null` | Allows the Hitbox to be armored by launch resistance or heavy armor. |
 | knockbackCap | Float | `-1` | When greater than or equal to zero, prevents an attack from dealing more knockback than this value. When negative, knockback is unlimited. |

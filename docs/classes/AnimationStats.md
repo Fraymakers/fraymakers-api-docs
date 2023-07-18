@@ -9,8 +9,8 @@ AnimationStats is the base class for animation behavior of GameObjects.
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
-| aerialSpeedAcceleration | Float | `-1` | Air speed acceleration override for this animation. Resorts to default aerialSpeedAcceleration animation stat when set to a negative value. |
-| aerialSpeedCap | Float | `-1` | Maximum air speed limit override for this animation. Resorts to default aerialSpeedCap animation stat when set to a negative value. |
+| aerialSpeedAcceleration | Float | `-1` | Air speed acceleration override for this animation. Resorts to default aerialSpeedAcceleration GameObject stat when set to a negative value. |
+| aerialSpeedCap | Float | `-1` | Maximum air speed limit override for this animation. Resorts to default aerialSpeedCap GameObject stat when set to a negative value. |
 | attackId | Int | `0` | Not to be set directly - unique attackId for the attack |
 | autoRotate | Bool | `false` | If true, the entity's body rotates to match momentum. |
 | bodyStatus | BodyStatus | `BodyStatus.NONE` | Override's the BodyStatus of the Entity for the duration of the animation. |
@@ -20,8 +20,8 @@ AnimationStats is the base class for animation behavior of GameObjects.
 | endType | AnimationEndType | `AnimationEndType.AUTO` | Defines how the engine should handle the completion of this animation<br> @see AnimationEndType |
 | grabLimit | Int | `1` | Limit of the amount of objects that can be grabbed during this animation |
 | gravityMultiplier | Float | `1` | Multiplier that is applied to the object's gravity value |
-| groundSpeedAcceleration | Float | `-1` | Ground speed acceleration override for this animation. Resorts to default groundSpeedAcceleration animation stat when set to a negative value. |
-| groundSpeedCap | Float | `-1` | Maximum ground speed limit override for this animation. Resorts to default groundSpeedCap animation stat when set to a negative value. |
+| groundSpeedAcceleration | Float | `-1` | Ground speed acceleration override for this animation. Resorts to default groundSpeedAcceleration GameObject stat when set to a negative value. |
+| groundSpeedCap | Float | `-1` | Maximum ground speed limit override for this animation. Resorts to default groundSpeedCap GameObject stat when set to a negative value. |
 | immovable | Bool | `false` | Immovable animations do not take knockback from windboxes and cannot be pushed by other solid objects, but may still push other movable solid objects. |
 | interruptible | Bool | `false` | Allows the animation to be counted as a free state. Note that modifying this value directly will bypass any special rules surrounding interruptibility (i.e. IASA that relies on external conditions). |
 | landAnimation | String | `null` | If non-null, the name of the animation that will be jumped to when the object transitions from air to ground, regardless of landType<br> If null, the engine will use a land animation based on the landType |
@@ -39,6 +39,7 @@ AnimationStats is the base class for animation behavior of GameObjects.
 | slideOff | Bool | `false` | Whether or not the character can slide off the edge of a floor. |
 | solid | Bool | `true` | Set to true and the object will push other solid animations when hurtboxes overlap, unless those objects are immovable or non-solid. |
 | storedChargePercent | Float | `0` | Not to be set directly - tracks the previously stored charge percentage |
+| terminalVelocity | Float | `-1` | Terminal velocity override for this animation. Resorts to default terminalVelocity GameObject stat when set to a negative value. |
 | xSpeedConservation | Float | `1` | Percentage of non-KB X Speed kept on frame 1 |
 | ySpeedConservation | Float | `1` | Percentage of non-KB Y Speed kept on frame 1 |
 
