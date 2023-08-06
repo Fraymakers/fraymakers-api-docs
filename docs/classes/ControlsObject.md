@@ -58,8 +58,12 @@ Helper class for managing controls inputs
 
 | Function Name | Description |
 | --------------- | ------------- |
+| analogDashActive():Bool |  |
+| analogWalkActive():Bool |  |
 | clone():ControlsObject |  |
 | copyFrom(controlsObject:ControlsObject):Void | Copies the controls values from another ControlsObject instance<br>Parameters:<br>- **controlsObject** - The ControlsObject instance to copy controls data from |
+| digitalDashActive():Bool |  |
+| digitalWalkActive():Bool |  |
 | getAngle(rightStick?:Bool):Float | Returns the angle of the left stick or right sticks, rounded to the nearest 45 degree angle<br>Parameters:<br>- **rightStick** - Pass as true to use the right stick for the angle calculation. Otherwise the left stick is used. |
 | hasRightStickAttackFlag():Bool |  |
 | hasRightStickSpecialFlag():Bool |  |

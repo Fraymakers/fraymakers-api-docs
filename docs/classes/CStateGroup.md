@@ -19,6 +19,7 @@ title: CStateGroup
 | JUMP | Int | `n/a` |  |
 | KO | Int | `n/a` |  |
 | LEDGE | Int | `n/a` |  |
+| LEDGE_CLIMB | Int | `n/a` |  |
 | LEDGE_ROLL | Int | `n/a` |  |
 | PARRY | Int | `n/a` |  |
 | RUN | Int | `n/a` |  |

@@ -58,6 +58,7 @@ title: CState
 | LEDGE_ATTACK | Int | `n/a` |  |
 | LEDGE_ATTACK_IN | Int | `n/a` |  |
 | LEDGE_CLIMB | Int | `n/a` |  |
+| LEDGE_CLIMB_IN | Int | `n/a` |  |
 | LEDGE_IN | Int | `n/a` |  |
 | LEDGE_JUMP | Int | `n/a` |  |
 | LEDGE_JUMP_IN | Int | `n/a` |  |
