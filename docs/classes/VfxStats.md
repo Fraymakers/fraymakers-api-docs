@@ -12,7 +12,7 @@ title: VfxStats
 | fadeOut | Bool | `false` | When true, the Vfx animation will fade out linearly from initial spawn to timeout. |
 | flipWith | Bool | `true` | Whether or not to flip the effect based on the calling GameObject's horizontal scale |
 | forceVisible | Bool | `false` | When true, The Vfx will be shown regardless of any optimization settings/configs |
-| layer | String | `"front"` |  |
+| layer | String | `null` | Specifies the layer to render the Vfx on which can be any valid VfxLayer constant. Defaults to VfxLayer.CHARACTERS_FRONT. |
 | loop | Bool | `false` | When true, the Vfx animation will loop. |
 | physics | Bool | `false` | When true, the Vfx will respond to physics-related methods |
 | relativeWith | Bool | `true` | Whether or not to force relative positioning of the effect against the GameObject's position |

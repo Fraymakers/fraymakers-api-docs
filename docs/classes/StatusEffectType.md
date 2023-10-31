@@ -25,6 +25,7 @@ title: StatusEffectType
 | INVISIBILITY | Int | `n/a` |  |
 | JUMP_SPEED_MULTIPLIER | Int | `n/a` |  |
 | SIZE_MULTIPLIER | Int | `n/a` |  |
+| WALK_SPEED_CAP_MULTIPLIER | Int | `n/a` |  |
 | WIDTH_MULTIPLIER | Int | `n/a` |  |
 
 

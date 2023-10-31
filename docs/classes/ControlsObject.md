@@ -35,6 +35,8 @@ Helper class for managing controls inputs
 | RIGHT_STICK_RIGHT | Bool | `n/a` |  |
 | RIGHT_STICK_UP | Bool | `n/a` |  |
 | SHIELD | Bool | `n/a` |  |
+| SHIELD1 | Bool | `n/a` |  |
+| SHIELD2 | Bool | `n/a` |  |
 | SHIELD_AIR | Bool | `n/a` |  |
 | SHORT_HOP | Bool | `n/a` |  |
 | SPECIAL | Bool | `n/a` |  |

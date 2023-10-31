@@ -14,6 +14,7 @@ title: Character
 | endAnimation():Void |  |
 | getAirdashCount():Int |  |
 | getAssistCharge():Float |  |
+| getAssistContentStat(name:String):Dynamic |  |
 | getAssistName():String |  |
 | getCharacterStat(name:String):Dynamic |  |
 | getDamageCounterAssistSprite():Sprite |  |

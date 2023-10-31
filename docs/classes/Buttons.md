@@ -25,6 +25,8 @@ Constants representing each possible button inputs.
 | RIGHT_STICK_RIGHT | Int | `n/a` |  |
 | RIGHT_STICK_UP | Int | `n/a` |  |
 | SHIELD | Int | `n/a` |  |
+| SHIELD1 | Int | `n/a` |  |
+| SHIELD2 | Int | `n/a` |  |
 | SHIELD_AIR | Int | `n/a` |  |
 | SHORT_HOP | Int | `n/a` |  |
 | SPECIAL | Int | `n/a` |  |

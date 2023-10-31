@@ -8,6 +8,7 @@ title: Stage
 | Function Name | Description |
 | --------------- | ------------- |
 | addEventListener(type:Int, func:Listener, options?:EventListenerOptions):Void |  |
+| getBackgroundBehindContainer():Container |  |
 | getBackgroundEffectsContainer():Container |  |
 | getBackgroundShadowsContainer():Container |  |
 | getBackgroundStructuresContainer():Container |  |
@@ -18,6 +19,7 @@ title: Stage
 | getCurrentFrame():Int |  |
 | getDeathBounds():RectCollisionArea |  |
 | getForegroundEffectsContainer():Container |  |
+| getForegroundFrontContainer():Container |  |
 | getForegroundShadowsContainer():Container |  |
 | getForegroundStructuresContainer():Container |  |
 | getResource():Resource |  |
@@ -31,6 +33,6 @@ title: Stage
 | playLabel(label:String):Void |  |
 | removeEventListener(type:Int, func:Listener):Void |  |
 | resume():Void |  |
-| updateLightboxStats(id:Int, lightboxStats:LightboxStatsProps):Void |  |
+| updateLightboxStats(id:Int, lightboxStats:LightboxStatsProps):Void | Not currently implemented, will have no effect. |
 
 
