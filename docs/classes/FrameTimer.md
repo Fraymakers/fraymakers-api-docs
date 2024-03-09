@@ -14,6 +14,7 @@ title: FrameTimer
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
+| active | Bool | `true` |  |
 | completed | Bool | `n/a` |  |
 | duration | Int | `n/a` |  |
 | elapsedFrames | Int | `n/a` |  |

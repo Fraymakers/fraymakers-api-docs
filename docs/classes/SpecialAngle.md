@@ -21,7 +21,7 @@ title: SpecialAngle
 
 | Function Name | Description |
 | --------------- | ------------- |
-| calculateAttackAngle(stats:HitboxStats, victim:GameObject, knockback:Float, result:CollisionResult):Float | Based on params, calculates a new angle as per the given SpecialAngle.<br> If a value cannot be calculated, returns -1.0<br> |
+| calculateAttackAngle(stats:HitboxStats, victim:GameObject, knockback:Float, result:CollisionResult):Float | Based on params, calculates and returns a new angle as per the given SpecialAngle.<br> If an autolink angle is calculated, also sets stats.reversible = false<br> |
 | calculateKnockback(stats:HitboxStats, victim:GameObject, result:CollisionResult):Float | Based on params, calculates a new knockback as per the given SpecialAngle. Not all SpecialAngle values modify knockback |
 
 

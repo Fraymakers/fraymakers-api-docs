@@ -14,6 +14,7 @@ title: GraphicsSettings
 | hudNumberShake | Bool | `n/a` |  |
 | hudReactionShake | Bool | `n/a` |  |
 | launchScreen | String | `n/a` |  |
+| parryDarkenVfx | Bool | `n/a` |  |
 | playerOutlines | String | `n/a` |  |
 | screenFilter | String | `n/a` |  |
 | screenShake | Bool | `n/a` |  |

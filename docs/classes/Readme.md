@@ -73,6 +73,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [StrongInputType](classes/StrongInputType.md)
 - [StructureType](classes/StructureType.md)
 - [TumbleType](classes/TumbleType.md)
+- [VfxLayer](classes/VfxLayer.md)
 
 ### Gameplay
 

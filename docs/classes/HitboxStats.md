@@ -32,6 +32,7 @@ title: HitboxStats
 | index | Int | `-1` | The numerical index of the hitbox that can be used to identify which hitbox was involved in a hit. |
 | jabResetType | Int | `null` | Allows the Hitbox to be armored by launch resistance or heavy armor. |
 | knockbackCap | Float | `-1` | When greater than or equal to zero, prevents an attack from dealing more knockback than this value. When negative, knockback is unlimited. |
+| knockbackCapDelay | Int | `0` | Number of frames to delay the application of knockbackCap. When negative or zero, knockbackCap is immediately applied. When 1, the cap will be applied on the next frame. |
 | knockbackGrowth | Float | `0` | Growth of the power correlated to damage. |
 | limb | Int | `null` | What the attacker is attacking with.<br> @see AttackLimb |
 | maxChargeDamageMultiplier | Float | `null` | Multiplier used for maximum charge if the move is chargeable |

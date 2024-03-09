@@ -29,6 +29,7 @@ A class containing parameters that configures the default settings of a Match.<b
 | music | ResourceIdentifier | `null` | This setting specifies the music resource id and content id to be loaded and played at match start |
 | netcodeInputBuffer | Int | `null` | The input delay setting of the match host. For delay-based matches, all players will use the same input delay. For rollback-based matches, the settings are determined at an individual player level. |
 | netcodeType | Int | `0` | Netcode setting. This determines the type of Match instance to instantiate. |
+| pauseMenuId | String | `null` | The pause config for this match. |
 | playerIDs | Bool | `false` | Set to true to make player ID numbers display above each player at all times. |
 | randSeed | String | `null` | This is the random seed that was set at match start.  <br> You may retrieve this value if desired butthis should not be set manually. |
 | sizeRatio | Float | `1` | A multiplier for the default scale of sprites within this Match.  <br> Generally this should be left alone, as it does not have additional effects like scaling physics or damage. |

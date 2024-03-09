@@ -18,6 +18,7 @@ CharacterEvent class represents events that occur within a Character
 | KNOCK_OUT | Int | `n/a` |  |
 | LEDGE_GRAB | Int | `n/a` |  |
 | OFFSCREEN | Int | `n/a` |  |
+| RESPAWN | Int | `n/a` |  |
 | WALL_BOUNCE | Int | `n/a` |  |
 
 

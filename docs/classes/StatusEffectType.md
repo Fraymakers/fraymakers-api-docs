@@ -17,6 +17,7 @@ title: StatusEffectType
 | ATTACK_SELF_HITSTOP_FLAT | Int | `n/a` |  |
 | ATTACK_SELF_HITSTOP_MULTIPLIER | Int | `n/a` |  |
 | CUSTOM | Int | `n/a` |  |
+| DAMAGE_LOCKED | Int | `n/a` |  |
 | DAMAGE_OVER_TIME | Int | `n/a` |  |
 | DISABLE_ACTION | Int | `n/a` |  |
 | GROUND_FRICTION_MULTIPLIER | Int | `n/a` |  |
