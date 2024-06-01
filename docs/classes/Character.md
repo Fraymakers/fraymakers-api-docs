@@ -32,6 +32,7 @@ title: Character
 | inHurtState():Bool |  |
 | inSpecialAttackState():Bool |  |
 | inStrongAttackChargeState():Bool |  |
+| isFirstInputUpdate():Bool | Returns true during inputUpdateHook() execution if this is the first input update check for the character on the current frame. Note that when transitioning between states there is the possibilty of multiple input update checks in a single frame due to the input buffer. |
 | isForcedGetup():Bool |  |
 | performHitstopNudge(up:Bool, down:Bool, left:Bool, right:Bool, nudgeMultiplier:Float):Void |  |
 | playAttackVoice():Void |  |

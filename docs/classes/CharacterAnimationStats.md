@@ -18,6 +18,8 @@ title: CharacterAnimationStats
 | doubleJumpCancel | Bool | `false` | Set to true to make upward momentum from a double jump cancel when this move is used. |
 | grabLedgeBehind | Bool | `true` | If set to true the entity will be able to grab ledges from behind them if the type of object allows. |
 | grabLedgeRising | Bool | `false` | If set to true the entity will be able to grab ledges while rising. |
+| leaveGroundAnimation | String | `null` |  |
+| leaveGroundType | LeaveGroundType | `LeaveGroundType.TO_FALL` | Determines the behaviour of the Character when becoming airborne.<br> @see LeaveGroundType |
 | singleUse | Bool | `false` | Set to true for attack animations that can only be used once when initiated in mid-air. |
 
 

@@ -25,7 +25,6 @@ title: Sprite
 | Function Name | Description |
 | --------------- | ------------- |
 | advance():Void |  |
-| dispose():Void |  |
 | getPalette():Map<Int,Int> |  |
 | goToFrameLabel(label:String):Void |  |
 | hasAnimation(animation:String):Bool |  |

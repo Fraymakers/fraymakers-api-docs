@@ -70,8 +70,8 @@ title: Entity
 | hasEventListener(type:Int, func?:Listener):Bool |  |
 | hitTestEntity(otherEntity:Entity, selfCollisionBoxType:Int, otherCollisionBoxType:Int, options?:HitTestEntityOptions):Array<CollisionResult> |  |
 | hitTestStructuresWithLineSegment(point1:Point, point2:Point, intersectionOut?:Point, options:StructureColliderSearchOptions):Array<Structure> |  |
-| inState(state:Int):Bool |  |
-| inStateGroup(stateGroup:Int):Bool |  |
+| inState(state:Int):Bool | Checks if the entity is in the specified state.<br>Parameters:<br>- **state** - The state to check for. |
+| inStateGroup(stateGroup:Int):Bool | Checks if the entity is in the specified state group.<br>Parameters:<br>- **stateGroup** - The state group to check for. |
 | isDisposed():Bool |  |
 | isFacingLeft():Bool |  |
 | isFacingRight():Bool |  |
@@ -97,7 +97,7 @@ title: Entity
 | setRotation(value:Float):Float |  |
 | setScaleX(scaleX:Float):Float | Sets the horizontal scale of the entity.<br> |
 | setScaleY(scaleY:Float):Float | Sets the vertical scale of the entity.<br> |
-| setState(state:Int):Void |  |
+| setState(state:Int):Void | Sets the state of the entity without changing the animation or inducing any other side effects.<br>Parameters:<br>- **state** - The state to set the entity to. |
 | setVisible(value:Bool):Bool |  |
 | setX(pos:Float):Float |  |
 | setXKnockback(speed:Float):Float |  |
@@ -108,7 +108,7 @@ title: Entity
 | setYSpeed(speed:Float):Float |  |
 | setYVelocity(speed:Float):Float |  |
 | swapDepths(gameObject:GameObject):Void |  |
-| toState(state:Int, animationOverride?:String):Void |  |
+| toState(state:Int, animationOverride?:String):Void | Transitions the entity to a new state, taking into account the object's state transition map and animation rules. Note that the the target state is not guaranteed to be the current state after this function is called, so it's important to check the state after calling this function if you need to know the result.<br>Parameters:<br>- **state** - The state to transition to.<br>- **animationOverride** - Overrides the animation to use for the state transition. |
 | toggleGravity(status:Bool):Void |  |
 | unattachFromFloor():Void |  |
 

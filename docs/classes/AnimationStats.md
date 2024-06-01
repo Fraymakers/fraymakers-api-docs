@@ -26,7 +26,7 @@ AnimationStats is the base class for animation behavior of GameObjects.
 | interruptible | Bool | `false` | Allows the animation to be counted as a free state. Note that modifying this value directly will bypass any special rules surrounding interruptibility (i.e. IASA that relies on external conditions). |
 | landAnimation | String | `null` | If non-null, the name of the animation that will be jumped to when the object transitions from air to ground, regardless of landType<br> If null, the engine will use a land animation based on the landType |
 | landType | LandType | `LandType.NORMAL` | Determines the behavior of the object when it transitions from air to ground.<br> @see: LandType |
-| leaveGroundCancel | Bool | `false` | If enabled the entity will have their animation canceled if they transition from grounded to aerial. |
+| leaveGroundCancel | Bool | `true` | If enabled the entity will have their animation canceled if they transition from grounded to aerial.<br> @deprecated Characters can use leaveGroundType instead |
 | metadata | Dynamic | `null` | Metadata passed into the attack |
 | name | String | `null` | The name of the attack animation. |
 | nextAnimation | String | `null` | Used in conjunction with AnimationEndType.AUTO.  If provided, when the animation ends, the entity's animation will be changed to this value |
