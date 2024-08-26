@@ -19,5 +19,6 @@ title: GraphicsSettings
 | screenFilter | String | `n/a` |  |
 | screenShake | Bool | `n/a` |  |
 | shadows | Bool | `n/a` |  |
+| stageBackgrounds | Bool | `n/a` |  |
 
 

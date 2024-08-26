@@ -64,6 +64,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [IState](IState.md)
 - [JabResetType](JabResetType.md)
 - [LandType](LandType.md)
+- [LeaveGroundType](LeaveGroundType.md)
 - [ParallaxMode](ParallaxMode.md)
 - [PState](PState.md)
 - [ShakeDecayType](ShakeDecayType.md)

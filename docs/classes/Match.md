@@ -18,6 +18,7 @@ title: Match
 | addEventListener(type:Int, func:Listener, options?:EventListenerOptions):Void |  |
 | checkFirstBlood(foe:Character):Bool | Check if a valid first blood<br> <br> |
 | checkTwoPlayersLastLife():Bool | Check if last 2 players and at their final stock |
+| createCustomApiObject(customApiObjectContent:String, owner?:ApiObject):CustomApiObject |  |
 | createCustomGameObject(customGameObjectContent:String, owner?:GameObject):GameObject |  |
 | createLineSegmentStructure(points:Array<Float>, stats?:StructureStats):CustomLineSegmentStructure |  |
 | createProjectile(projectileContent:String, owner?:GameObject):Projectile |  |

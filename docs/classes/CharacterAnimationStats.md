@@ -13,6 +13,7 @@ title: CharacterAnimationStats
 | allowTurn | Bool | `false` | When true the character will be capable of flipping their direction faced on the first frame of the animation when the opposite direction is tapped prior to the animation. |
 | allowTurnOnFirstFrame | Bool | `false` | When true the character will be capable of flipping their direction faced by tapping a left or right direction for the duration of the animation. |
 | autocancel | Bool | `false` | When true, landing during this animation will ignore the value of landAnimation and send the character to the default landing animation. |
+| bodyStatusShaderColor | Int | `null` | The color filter used when a body status is active. Can set to 0x000000 to disable. |
 | chargeGlow | Bool | `false` | When true, the engine will apply its built-in charge glow animation to the character sprites. |
 | chargeShake | Bool | `false` | When true, the engine will apply its built-in charge shake animation to the character sprites. |
 | doubleJumpCancel | Bool | `false` | Set to true to make upward momentum from a double jump cancel when this move is used. |
