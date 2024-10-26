@@ -20,6 +20,7 @@ title: CState
 | AIRDASH_FULL_SPEED | Int | `n/a` |  |
 | AIRDASH_INITIAL | Int | `n/a` |  |
 | ASSIST_CALL | Int | `n/a` |  |
+| BURIED | Int | `n/a` |  |
 | CRASH_ATTACK | Int | `n/a` |  |
 | CRASH_BOUNCE | Int | `n/a` |  |
 | CRASH_GET_UP | Int | `n/a` |  |

@@ -23,6 +23,9 @@ title: CharacterStats
 | airdashTrailEffect | String | `null` | The ID of the trail effect that you want airdashes to spawn |
 | attackVoiceIds | Array<String> | `null` | List of attack voice content ids. Calls to playAttackVoice() will choose one of these audio clips at random. |
 | attackVoiceSilenceRate | Float | `0.5` | The rate at which calls to playAttackVoice() should result in silence. |
+| buryAnimation | String | `"hurt_thrown"` | The animation the character will use when buried. |
+| buryFrame | Int | `13` | The frame of the buryAnimation to be used while buried. |
+| buryOffsetY | Float | `0.0` | Vertical offset for the bury animation, relative to their ECB's vertical midpoint. |
 | crawlSpeed | Float | `0` | Character's crawl speed. Set to 0 to disable crawling. |
 | dashSpeed | Float | `1` | Character's initial run speed. |
 | dodgeRollSpeed | Float | `10` | Speed the character's dodge roll begins at. |

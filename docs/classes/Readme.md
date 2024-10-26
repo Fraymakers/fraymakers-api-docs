@@ -63,6 +63,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [GrabAirType](GrabAirType.md)
 - [IState](IState.md)
 - [JabResetType](JabResetType.md)
+- [BuryType](BuryType.md)
 - [LandType](LandType.md)
 - [LeaveGroundType](LeaveGroundType.md)
 - [ParallaxMode](ParallaxMode.md)

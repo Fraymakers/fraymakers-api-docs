@@ -7,6 +7,7 @@ title: Match
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
+| firstBloodCalled | Bool | `false` |  |
 | globals | Dynamic | `n/a` |  |
 | overtimeCount | Int | `0` |  |
 

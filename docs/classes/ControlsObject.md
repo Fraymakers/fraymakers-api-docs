@@ -72,6 +72,7 @@ Helper class for managing controls inputs
 | reset():Void |  |
 | rightStickPressed():Bool |  |
 | syncStickAngles():Void |  |
+| syncStickButtons():Void | Ensure the directional buttons correspond with any stick angle |
 | toString():String | Returns a user readable string of current inputs |
 
 
