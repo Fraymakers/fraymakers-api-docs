@@ -9,6 +9,7 @@ AnimationStats is the base class for animation behavior of GameObjects.
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
+| aerialFriction | Float | `-1` | Aerial friction override for this animation. Resorts to default aerialFriction GameObject stat when set to a negative value. |
 | aerialSpeedAcceleration | Float | `-1` | Air speed acceleration override for this animation. Resorts to default aerialSpeedAcceleration GameObject stat when set to a negative value. |
 | aerialSpeedCap | Float | `-1` | Maximum air speed limit override for this animation. Resorts to default aerialSpeedCap GameObject stat when set to a negative value. |
 | attackId | Int | `0` | Not to be set directly - unique attackId for the attack |
@@ -17,7 +18,9 @@ AnimationStats is the base class for animation behavior of GameObjects.
 | bodyStatusStrength | Float | `0` | If BodyStatus is in the DAMAGE_ARMOR, DAMAGE_RESISTANCE, LAUNCH_ARMOR, or LAUNCH_RESISTANCE states, then this controls the damage and velocity thresholds for each respective status. |
 | chargeFramesMax | Int | `0` | Maximum number of frames the animation can be charged for. Setting this value to zero will disable charge incrementing |
 | chargeFramesTotal | Int | `0` | Total number of frames the animation has been charged for |
+| colorAdjustableBodyStatuses | BodyStatus | `BodyStatus.ALL` | Chooses which body statuses are allowed to change the GameObject color. |
 | endType | AnimationEndType | `AnimationEndType.AUTO` | Defines how the engine should handle the completion of this animation<br> @see AnimationEndType |
+| friction | Float | `-1` | Ground friction override for this animation. Resorts to GameObject friction stat when set to a negative value. |
 | grabLimit | Int | `1` | Limit of the amount of objects that can be grabbed during this animation |
 | gravityMultiplier | Float | `1` | Multiplier that is applied to the object's gravity value |
 | groundSpeedAcceleration | Float | `-1` | Ground speed acceleration override for this animation. Resorts to default groundSpeedAcceleration GameObject stat when set to a negative value. |

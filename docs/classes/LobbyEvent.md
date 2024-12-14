@@ -65,6 +65,6 @@ title: LobbyEvent
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
-| data | LobbyEventData | `n/a` |  |
+| data | LobbyEventData | `n/a` | Contains additional data about the lobby event. |
 
 

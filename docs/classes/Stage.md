@@ -8,6 +8,7 @@ title: Stage
 | Function Name | Description |
 | --------------- | ------------- |
 | addEventListener(type:Int, func:Listener, options?:EventListenerOptions):Void |  |
+| addTimer(interval:Int, repeats:Int, func, options?:IntervalTimerOptions):Int |  |
 | getBackgroundBehindContainer():Container |  |
 | getBackgroundEffectsContainer():Container |  |
 | getBackgroundShadowsContainer():Container |  |
@@ -32,6 +33,7 @@ title: Stage
 | playFrame(frame:Int):Void |  |
 | playLabel(label:String):Void |  |
 | removeEventListener(type:Int, func:Listener):Void |  |
+| removeTimer(uid:Int):Bool |  |
 | resume():Void |  |
 | updateLightboxStats(id:Int, lightboxStats:LightboxStatsProps):Void | Not currently implemented, will have no effect. |
 

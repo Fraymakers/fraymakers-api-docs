@@ -17,6 +17,7 @@ title: Match
 | Function Name | Description |
 | --------------- | ------------- |
 | addEventListener(type:Int, func:Listener, options?:EventListenerOptions):Void |  |
+| addTimer(interval:Int, repeats:Int, func, options?:IntervalTimerOptions):Int |  |
 | checkFirstBlood(foe:Character):Bool | Check if a valid first blood<br> <br> |
 | checkTwoPlayersLastLife():Bool | Check if last 2 players and at their final stock |
 | createCustomApiObject(customApiObjectContent:String, owner?:ApiObject):CustomApiObject |  |
@@ -44,5 +45,6 @@ title: Match
 | isDisposed():Bool |  |
 | isReplay():Bool |  |
 | removeEventListener(type:Int, func:Listener):Void |  |
+| removeTimer(uid:Int):Bool |  |
 
 
