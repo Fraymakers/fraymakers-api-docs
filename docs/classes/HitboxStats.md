@@ -27,6 +27,7 @@ title: HitboxStats
 | forceTumbleFall | Bool | `false` | @deprecated When true, the attack will always cause foes to go into their tumble state when hit. This stat has been deprecated, please use tumbleType stat instead |
 | hitEffectOverride | String | `null` | Use a custom hit Vfx. By default, the engine assumes this is an animation name from from the GlobalVfx sprite (See GlobalVfx constnats). You can however use other Vfx animations by specifying the full content id of the Vfx sprite followed by a hash "#" specifying the animation you want to play. (e.g. "namespace::resource.spriteId#animationId") |
 | hitSoundOverride | String | `null` | Instead of using the automatic hitsound calc (uses element and hitstrength). |
+| hitSoundOverrideArray | Array<String> | `null` | Instead of using the automatic hitsound calc or sound override, plays random sound id from array. |
 | hitstop | Int | `-1` | Determines how many frames the victim will be held in place before knockback is applied. When negative this value is automatically calculated. |
 | hitstopMultiplier | Float | `1.0` | Multiplier that affects both hitstop and selfHitstop. |
 | hitstopNudgeMultiplier | Float | `1` | Multiplier for how far foes can nudge while in hitstop. |
