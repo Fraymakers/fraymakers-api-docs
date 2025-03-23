@@ -46,5 +46,6 @@ title: Match
 | isReplay():Bool |  |
 | removeEventListener(type:Int, func:Listener):Void |  |
 | removeTimer(uid:Int):Bool |  |
+| spawnKOBlast(owner:GameObject):Vfx |  |
 
 

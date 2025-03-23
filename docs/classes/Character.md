@@ -9,6 +9,7 @@ title: Character
 | --------------- | ------------- |
 | attachToLedge(forceBodyLock?:Bool):Void |  |
 | attemptLedgeGrab():Bool | Initiates a ledge-grab flow, which may or may not result in the character grabbing a ledge<br> |
+| attemptStructureLedgeGrab(structure:Structure, isLeftLedge:Bool):Bool | Initiates a ledge-grab flow on a particular structure, which may or may not result in the character grabbing a ledge.<br> <br> The character's state is not taken into account, only if the structure's ledge is available.<br>Parameters:<br>- **structure** - Structure to attempt to ledge-grab<br>- **isLeftLedge** - Bool True if the left ledge is to be grabbed, False if the right ledge is to be grabbed |
 | checkZeroToDeath(foe:Character, damageThreshold?:Int):Bool | Check if eligible for zero-to-death<br> <br> <br>Parameters:<br>- **damageThreshold** - threshold damage required to be considered a zero-to-death |
 | clearInputBuffer():Void |  |
 | endAnimation():Void |  |
@@ -24,11 +25,13 @@ title: Character
 | getHeldControls():ControlsObject | Returns the held controls for the character. This data may be modified by the input buffer or other input post-processing. |
 | getLives():Int |  |
 | getPlayerConfig():PlayerConfig |  |
+| getPlayerTagContainer():Container | Get container of the player tag if it exists. |
 | getPortColor():Int | Returns color of the player's port. Returns cpuColor if character is CPU. |
 | getPressedControls():ControlsObject | Returns the pressed controls for the character. This data may be modified by the input buffer or other input post-processing. |
 | getRawHeldControls():ControlsObject | Returns the raw held controls for the character. This data is not modified by the input buffer or any other input post-processing. |
 | getScore():Score |  |
 | getType():Int |  |
+| inActionableState():Bool | Returns true if the character is in a state that is free to act out of, like idle or fall. |
 | inAerialAttackState():Bool |  |
 | inAirdashCanceledAnimation():Bool |  |
 | inBufferInputState():Bool | Helper for determining if the character is in a state that should cause inputs to be buffered. This includes some non-state related conditions like being in hitstop or shieldstun. |

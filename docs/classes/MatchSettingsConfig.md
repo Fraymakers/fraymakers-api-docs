@@ -19,6 +19,7 @@ A class containing parameters that configures the default settings of a Match.<b
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
+| damageDisplay | Bool | `true` | Set to true to display player damage on the HUD. Set to false to hide it. |
 | damageMode | Bool | `true` | Damage mode for the players.<br> - true for damage<br> - false for stamina |
 | damageRatio | Float | `1` | This value is applied to the global knockback formula when a game object takes damage. <br> - Do note that as the damage scales, so does the distance a foe goes upon being hit. |
 | entrances | Bool | `true` | When true, character entrance animations will be shown at the start of a match. Set to false to disable this behavior. |
@@ -30,7 +31,7 @@ A class containing parameters that configures the default settings of a Match.<b
 | netcodeInputBuffer | Int | `null` | The input delay setting of the match host. For delay-based matches, all players will use the same input delay. For rollback-based matches, the settings are determined at an individual player level. |
 | netcodeType | Int | `0` | Netcode setting. This determines the type of Match instance to instantiate. |
 | pauseMenuId | String | `null` | The pause config for this match. |
-| playerIDs | Bool | `false` | Set to true to make player ID numbers display above each player at all times. |
+| playerIDs | Bool | `false` | Set to true to make player ID numbers display above each player at all times. If player tags are available will display that instead. |
 | randSeed | String | `null` | This is the random seed that was set at match start.  <br> You may retrieve this value if desired butthis should not be set manually. |
 | sizeRatio | Float | `1` | A multiplier for the default scale of sprites within this Match.  <br> Generally this should be left alone, as it does not have additional effects like scaling physics or damage. |
 | specialModes | Int | `0` | This is a bit mapping of the enabled special modes for a match.   <br> In order to combine special modes together, you need to perform a bitwise OR on the special modes you would like to enable. |
@@ -38,6 +39,6 @@ A class containing parameters that configures the default settings of a Match.<b
 | startDamage | Float | `0` | Starting damage for players. <br> - Set to negative to give players stamina instead of racking up damage.<br> @see stamina |
 | teamAttack | Bool | `false` | Controls whether friendly fire is enabled.  <br> - When set to true, teammates can hurt each other.  <br> - This has no effect outside of team battles. |
 | teams | Bool | `false` | Set to true to make the match a team battle. Set to false for a free-for-all.<br> - When having a team battle make sure to assign each player (via PlayerConfig) to a team. |
-| time | Float | `0` | Match game timer IN SECONDS.  <br> - Set negative to count up from 0 to value.   <br> - Set positive to count down from value.  <br> - Set to 0 to disable. |
+| time | Float | `0` | Match game timer IN SECONDS.  <br> - Set negative to count up from 0 to value.<br> - Set positive to count down from value.  <br> - Set to 0 to disable. |
 
 
