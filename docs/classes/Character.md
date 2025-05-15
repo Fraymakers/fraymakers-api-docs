@@ -18,6 +18,7 @@ title: Character
 | getAssistContentStat(name:String):Dynamic |  |
 | getAssistController():AssistController |  |
 | getAssistName():String |  |
+| getAssists():Array<Assist> |  |
 | getCharacterStat(name:String):Dynamic |  |
 | getDamageCounterAssistSprite():Sprite |  |
 | getDoubleJumpCount():Int |  |

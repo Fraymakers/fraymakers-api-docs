@@ -8,5 +8,6 @@ title: Assist
 | Function Name | Description |
 | --------------- | ------------- |
 | getPortColor():Int |  |
+| updateAssistStats(stats:AssistStatsProps):Void | Use to update assist stats<br> |
 
 

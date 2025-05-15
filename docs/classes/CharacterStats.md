@@ -51,6 +51,7 @@ title: CharacterStats
 | jumpSpeedForwardInitialXSpeed | Float | `0` | Horizontal speed initially given if holding forward when jump startup ends. Set to less than or equal to 0 to disable. |
 | koVoiceIds | Array<String> | `null` | List of KO blast voice content ids. Calls to playKoVoice() will choose one of these audio clips at random. |
 | koVoiceSilenceRate | Float | `0.5` | The rate at which calls to playKoVoice() should result in silence. |
+| ledgeActionOccupancyTime | Int | `30` | How long a character occupies a ledge when performing ledge actions. |
 | ledgeJumpXSpeed | Float | `2.5` | Horizontal speed boost the character gets when performing a ledge jump |
 | ledgeJumpYSpeed | Float | `-10` | Vertical speed boost the character gets when performing a ledge jump |
 | ledgeRollSpeed | Float | `10` | Speed the character's ledge roll begins at. |

@@ -13,6 +13,7 @@ title: Stage
 | getBackgroundEffectsContainer():Container |  |
 | getBackgroundShadowsContainer():Container |  |
 | getBackgroundStructuresContainer():Container |  |
+| getCameraAnchors():Array<RectCollisionArea> |  |
 | getCameraBounds():RectCollisionArea |  |
 | getCharactersBackContainer():Container |  |
 | getCharactersContainer():Container |  |
