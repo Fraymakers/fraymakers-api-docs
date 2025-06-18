@@ -30,6 +30,7 @@ title: Match
 | createStructure(structureContent:String):Structure |  |
 | createVfx(vfxStats:VfxStats, owner?:GameObject):Vfx |  |
 | freezeScreen(duration:Int, allowList:Array<GameObject>):Void | Freezes the screen, including all game objects<br>Parameters:<br>- **duration** - Length of the freeze<br>- **allowList** - Entities that will be allowed to update |
+| getCamera():Camera |  |
 | getCharacters():Array<Character> |  |
 | getCollisionAreaByName(name:String):CollisionArea |  |
 | getCollisionAreas():Array<CollisionArea> |  |

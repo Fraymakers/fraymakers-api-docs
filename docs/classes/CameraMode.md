@@ -1,18 +1,18 @@
 ---
 layout: page
-title: StructureType
+title: CameraMode
 ---
 
 ## Static Variables
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
-| AUTO | Int | `n/a` |  |
-| CEILING | Int | `n/a` |  |
-| FLOOR | Int | `n/a` |  |
-| LEFT_WALL | Int | `n/a` |  |
-| NONE | Int | `n/a` |  |
-| RIGHT_WALL | Int | `n/a` |  |
+| FREE | Int | `n/a` |  |
+| LOCKED | Int | `n/a` |  |
+| NORMAL | Int | `n/a` |  |
+| SCALE | Int | `n/a` |  |
+| STAGE | Int | `n/a` |  |
+| ZOOM | Int | `n/a` |  |
 
 
 ## Static Functions
@@ -20,6 +20,5 @@ title: StructureType
 | Function Name | Description |
 | --------------- | ------------- |
 | constToString(value:Int):String | Translates constant to a user-readable string. |
-| isWall(structureType:Int):Bool | The type of collision is determined by the position of the object relative to the structure. |
 
 

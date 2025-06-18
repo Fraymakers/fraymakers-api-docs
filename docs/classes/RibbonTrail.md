@@ -11,6 +11,7 @@ title: RibbonTrail
 | heightScale | Float | `n/a` |  |
 | movingRatio | Float | `n/a` |  |
 | points | Array<TPoint> | `n/a` |  |
+| useAnchoredReveal | Bool | `n/a` | When in anchored reveal mode, the ribbon is incrementally revealed based on the number of segments. <br> The reveal starts from the initial position, and continues as the position is updated.<br> Once the entire ribbon is visible, the entire trail moves along with the updated positions. |
 
 
 ## Instance Functions

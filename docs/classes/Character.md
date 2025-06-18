@@ -21,6 +21,9 @@ title: Character
 | getAssists():Array<Assist> |  |
 | getCharacterStat(name:String):Dynamic |  |
 | getDamageCounterAssistSprite():Sprite |  |
+| getDamageCounterName():String | Gets the current display name on the damage counter |
+| getDamageCounterRenderSpriteFront():Sprite | Returns the character sprite displayed on the front layer of the damage counter |
+| getDefaultDamageCounterName():String | Gets the default damage counter display name |
 | getDoubleJumpCount():Int |  |
 | getFoes():Array<Character> |  |
 | getHeldControls():ControlsObject | Returns the held controls for the character. This data may be modified by the input buffer or other input post-processing. |
@@ -31,6 +34,7 @@ title: Character
 | getPressedControls():ControlsObject | Returns the pressed controls for the character. This data may be modified by the input buffer or other input post-processing. |
 | getRawHeldControls():ControlsObject | Returns the raw held controls for the character. This data is not modified by the input buffer or any other input post-processing. |
 | getScore():Score |  |
+| getStockIconSprites():null | Returns the stock icon sprites.<br> The array `icons` corresponds to the sprites for te first four stocks<br> and `compactIcon` corresponds to the sprite displayed when at 5 or more stocks. |
 | getType():Int |  |
 | inActionableState():Bool | Returns true if the character is in a state that is free to act out of, like idle or fall. |
 | inAerialAttackState():Bool |  |
@@ -54,6 +58,7 @@ title: Character
 | setAirdashCount(count:Int):Int |  |
 | setAssistCharge(value:Float):Void |  |
 | setAssistCutinAnimation(animation:String):Void |  |
+| setDamageCounterName(name:String):Void | Sets the  display name on the damage counter<br>Parameters:<br>- **name** - the new display name |
 | setDoubleJumpCount(count:Int):Int |  |
 | setLives(lives:Int):Void |  |
 | updateAnimationStats(stats:Dynamic):Void |  |
