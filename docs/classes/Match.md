@@ -43,6 +43,7 @@ title: Match
 | getStructures():Array<Structure> |  |
 | getTimeLeft():Int | Returns time (in frames) left in the match |
 | hasEventListener(type:Int, func?:Listener):Bool |  |
+| hasModifier(modifier:Int):Bool | Returns true if the provided match modifier is active.<br> @see MatchModifier<br>Parameters:<br>- **modifier** - The match modifier to check for |
 | isDisposed():Bool |  |
 | isReplay():Bool |  |
 | removeEventListener(type:Int, func:Listener):Void |  |

@@ -24,6 +24,7 @@ A class containing parameters that configures the default settings of a Match.<b
 | damageRatio | Float | `1` | This value is applied to the global knockback formula when a game object takes damage. <br> - Do note that as the damage scales, so does the distance a foe goes upon being hit. |
 | entrances | Bool | `true` | When true, character entrance animations will be shown at the start of a match. Set to false to disable this behavior. |
 | hazards | Bool | `false` | Controls whether stage hazards are enabled. The definition of 'hazard' varies by stage.<br> - When set to true, stages' hazardous elements are enabled.  <br> - When set to false, they are disabled. |
+| intro | HudIntroConfig | `null` | Intro Animation Sprite and Animation Configuration |
 | lives | Int | `-1` | Number of 'stocks' each player has by default within this Match. Note that this can be overridden by playerConfigs. <br> - Set to -1 to disable. |
 | matchRules | Array<ResourceIdentifier> | `null` | The content/resource ID of the match rules for this match. |
 | metadata | Dynamic | `null` | Dynamic metadata - use this for anything else not covered by existing variables. |
@@ -33,9 +34,12 @@ A class containing parameters that configures the default settings of a Match.<b
 | pauseMenuId | String | `null` | The pause config for this match. |
 | playerIDs | Bool | `false` | Set to true to make player ID numbers display above each player at all times. If player tags are available will display that instead. |
 | randSeed | String | `null` | This is the random seed that was set at match start.  <br> You may retrieve this value if desired butthis should not be set manually. |
+| scoreDisplay | Bool | `false` | Set to true to display the player score on the HUD if in time mode. Set to false to hide it. |
+| selfDestructScore | Int | `-1` | How much additional penalty should apply for a self-destruct. |
 | sizeRatio | Float | `1` | A multiplier for the default scale of sprites within this Match.  <br> Generally this should be left alone, as it does not have additional effects like scaling physics or damage. |
 | specialModes | Int | `0` | This is a bit mapping of the enabled special modes for a match.   <br> In order to combine special modes together, you need to perform a bitwise OR on the special modes you would like to enable. |
 | stage | ResourceIdentifier | `null` | The content/resource ID of the Stage that the Match takes place on. |
+| startAssistCharge | Float | `0` | Starting assist charge for players. |
 | startDamage | Float | `0` | Starting damage for players. <br> - Set to negative to give players stamina instead of racking up damage.<br> @see stamina |
 | teamAttack | Bool | `false` | Controls whether friendly fire is enabled.  <br> - When set to true, teammates can hurt each other.  <br> - This has no effect outside of team battles. |
 | teams | Bool | `false` | Set to true to make the match a team battle. Set to false for a free-for-all.<br> - When having a team battle make sure to assign each player (via PlayerConfig) to a team. |

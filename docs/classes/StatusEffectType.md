@@ -10,7 +10,10 @@ title: StatusEffectType
 | AERIAL_FRICTION_MULTIPLIER | Int | `n/a` |  |
 | AERIAL_SPEED_ACCELERATION_MULTIPLIER | Int | `n/a` |  |
 | AERIAL_SPEED_CAP_MULTIPLIER | Int | `n/a` |  |
+| AIRDASH_ACCEL_MULTIPLIER | Int | `n/a` |  |
 | AIRDASH_CANCEL_SPEED_CONSERVATION_MULTIPLIER | Int | `n/a` |  |
+| AIRDASH_ENDLAG_SPEED_MULTIPLIER | Int | `n/a` |  |
+| AIRDASH_SPEED_CAP_MULTIPLIER | Int | `n/a` |  |
 | ALPHA_MULTIPLIER | Int | `n/a` |  |
 | ATTACK_HITSTOP_FLAT | Int | `n/a` |  |
 | ATTACK_HITSTOP_MULTIPLIER | Int | `n/a` |  |
@@ -19,11 +22,14 @@ title: StatusEffectType
 | ATTACK_KNOCKBACK_MULTIPLIER | Int | `n/a` |  |
 | ATTACK_SELF_HITSTOP_FLAT | Int | `n/a` |  |
 | ATTACK_SELF_HITSTOP_MULTIPLIER | Int | `n/a` |  |
+| AUTOLINK_KNOCKBACK_MULTIPLIER | Int | `n/a` |  |
+| CRAWL_SPEED_MULTIPLIER | Int | `n/a` |  |
 | CUSTOM | Int | `n/a` |  |
 | DAMAGE_LOCKED | Int | `n/a` |  |
 | DAMAGE_OVER_TIME | Int | `n/a` |  |
 | DASH_SPEED_MULTIPLIER | Int | `n/a` |  |
 | DISABLE_ACTION | Int | `n/a` |  |
+| DODGE_ROLL_SPEED_MULTIPLIER | Int | `n/a` |  |
 | DOUBLE_JUMP_SPEED_MULTIPLIER | Int | `n/a` |  |
 | FAST_FALL_SPEED_MULTIPLIER | Int | `n/a` |  |
 | GRAVITY_MULTIPLIER | Int | `n/a` |  |
@@ -33,7 +39,11 @@ title: StatusEffectType
 | HEIGHT_MULTIPLIER | Int | `n/a` |  |
 | HITBOX_DAMAGE_MULTIPLIER | Int | `n/a` |  |
 | INVISIBILITY | Int | `n/a` |  |
+| JUMP_SPEED_BACKWARD_INITIAL_X_SPEED_MULTIPLIER | Int | `n/a` |  |
+| JUMP_SPEED_FORWARD_INITIAL_X_SPEED_MULTIPLIER | Int | `n/a` |  |
 | JUMP_SPEED_MULTIPLIER | Int | `n/a` |  |
+| LEDGE_JUMP_SPEED_MULTIPLIER | Int | `n/a` |  |
+| ROLL_SLIDE_OFF_SPEED_MULTIPLIER | Int | `n/a` |  |
 | RUN_SPEED_ACCELERATION_MULTIPLIER | Int | `n/a` |  |
 | RUN_SPEED_CAP_MULTIPLIER | Int | `n/a` |  |
 | RUN_SPEED_INITIAL_MULTIPLIER | Int | `n/a` |  |

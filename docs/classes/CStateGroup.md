@@ -26,6 +26,7 @@ title: CStateGroup
 | SHIELD | Int | `n/a` |  |
 | UNINITIALIZED | Int | `n/a` |  |
 | WALK | Int | `n/a` |  |
+| WALL | Int | `n/a` |  |
 
 
 ## Static Functions

@@ -112,6 +112,8 @@ title: CState
 | WALK_IN | Int | `n/a` |  |
 | WALK_LOOP | Int | `n/a` |  |
 | WALK_OUT | Int | `n/a` |  |
+| WALL_JUMP | Int | `n/a` |  |
+| WALL_JUMP_IN | Int | `n/a` |  |
 
 
 ## Static Functions

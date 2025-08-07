@@ -79,5 +79,8 @@ title: CharacterStats
 | walkSpeedAcceleration | Float | `1` | Character's walk speed acceleration. |
 | walkSpeedCap | Float | `1` | Character's max walk speed. |
 | walkSpeedInitial | Float | `1` | Character's initial walk speed. |
+| wallJumpLimit | Int | `0` | The number of wall jumps the character can perform. Use a negative number for infinite wall jumps. |
+| wallJumpXSpeed | Float | `10` | The horizontal speed of a wall jump, positive values send the character away from the wall. |
+| wallJumpYSpeed | Float | `10` | The vertical speed of a wall jump, positive values send the character upwards. |
 
 

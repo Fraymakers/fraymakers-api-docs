@@ -23,6 +23,7 @@ title: HitboxStats
 | directionalInfluence | Bool | `true` | Setting to false will disable post-hitstop directional influence among hit foes. |
 | disabled | Bool | `false` | If true, the hitbox will behave as though it did not exist (it will not interact with other boxes). |
 | element | Int | `null` | What element the attack is <br> @see AttackElement |
+| entityHitConditions | Int | `null` | Whether or not the hitbox should interact with foes of a certain object type. Multiple conditions can be combined using the | operator.<br> For more complex conditions, should use the HITBOX_CONNECTED event to update the disabled field of hitbox stats.<br> <br> @see EntityHitCondition |
 | flinch | Bool | `true` | Setting to false will make the move not break grabs nor send the foe into the hurt animation. |
 | forceTumbleFall | Bool | `false` | @deprecated When true, the attack will always cause foes to go into their tumble state when hit. This stat has been deprecated, please use tumbleType stat instead |
 | hitEffectOverride | String | `null` | Use a custom hit Vfx. By default, the engine assumes this is an animation name from from the GlobalVfx sprite (See GlobalVfx constnats). You can however use other Vfx animations by specifying the full content id of the Vfx sprite followed by a hash "#" specifying the animation you want to play. (e.g. "namespace::resource.spriteId#animationId") |
@@ -42,6 +43,7 @@ title: HitboxStats
 | maxChargeDamageMultiplier | Float | `null` | Multiplier used for maximum charge if the move is chargeable |
 | metadata | Dynamic | `null` | Additional metadata. |
 | owner | GameObject | `null` | The GameObjectApi instance that owns the hitbox. |
+| physicsHitConditions | Int | `null` | Whether or not the hitbox should interact with certain foes depending on their physics state. Multiple conditions can be combined using the | operator.<br> For more complex conditions, should use the HITBOX_CONNECTED event to update the disabled field of hitbox stats.<br> <br> @see PhysicsHitCondition |
 | rawAngle | Float | `0` | The raw angle value of the hitbox that always starts equal to the "angle" stat. Cannot be assigned, but you can use it to determine the original angle of the hitbox in cases where the actual trajectory of the foe isn't desired. |
 | rawDamage | Float | `0` | The raw damage value of the hitbox. Is unaffected by staling and cannot be assigned. |
 | reflectable | Bool | `false` | When true, the hitbox is able to trigger reflect-related events when it connects with a reflect box. Reflect events are only receivable by projectiles and items, and the resulting behavior is determined by the individual object receiving the reflect event. |

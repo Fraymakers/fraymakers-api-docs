@@ -9,6 +9,7 @@ Event that represents changes in a Control instance.
 
 | Field Name | Type | Initial Value | Description |
 | ------------ | ------ | --------------- | ------------- |
+| ATTACK_LANDED | Int | `n/a` |  |
 | COMBO | Int | `n/a` |  |
 | FALL | Int | `n/a` |  |
 | FULLY_CHARGED_STRONG | Int | `n/a` |  |
