@@ -61,6 +61,7 @@ title: CharacterStats
 | runSpeedAcceleration | Float | `1` | Character's run speed acceleration. |
 | runSpeedCap | Float | `1` | Character's max run speed. |
 | runSpeedInitial | Float | `1` | Character's initial run speed (post-turn only). |
+| shieldAirType | Int | `null` | The behaviour of performing SHIELD while midair |
 | shieldBackHeight | Float | `90` | Height of the back shield graphic |
 | shieldBackNineSliceContent | String | `"global::vfx.vfx_shield_back"` | Nine slice to use for the back shield |
 | shieldBackWidth | Float | `40` | Width of the back shield graphic |
@@ -79,6 +80,7 @@ title: CharacterStats
 | walkSpeedAcceleration | Float | `1` | Character's walk speed acceleration. |
 | walkSpeedCap | Float | `1` | Character's max walk speed. |
 | walkSpeedInitial | Float | `1` | Character's initial walk speed. |
+| wallClingLimit | Int | `0` |  |
 | wallJumpLimit | Int | `0` | The number of wall jumps the character can perform. Use a negative number for infinite wall jumps. |
 | wallJumpXSpeed | Float | `10` | The horizontal speed of a wall jump, positive values send the character away from the wall. |
 | wallJumpYSpeed | Float | `10` | The vertical speed of a wall jump, positive values send the character upwards. |

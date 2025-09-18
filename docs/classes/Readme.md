@@ -88,6 +88,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [PState](PState.md)
 - [ShakeDecayType](ShakeDecayType.md)
 - [ShakeWaveType](ShakeWaveType.md)
+- [ShieldAirType](ShieldAirType.md)
 - [SpecialAngle](SpecialAngle.md)
 - [StatusEffectType](StatusEffectType.md)
 - [StrongInputType](StrongInputType.md)

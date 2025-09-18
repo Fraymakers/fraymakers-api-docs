@@ -12,6 +12,7 @@ title: Entity
 | addShader(shader:Shader):Void |  |
 | addTimer(interval:Int, repeats:Int, func, options?:IntervalTimerOptions):Int |  |
 | attachToFloor(structure:Structure):Bool |  |
+| attachToWall(structure:Structure):Bool | Forces the entity to attach to a particular wall.<br>Parameters:<br>- **structure** - The structure to attach to. Must be a wall. |
 | bringInFront(gameObject:GameObject):Void |  |
 | collisionTest(otherEntity:Entity, myBoxType:Int, theirBoxType:Int, bailEarly:Bool):Array<Rectangle> |  |
 | collisionTestGroup(sourceEntities:Array<Entity>, sourceBoxType:Int, otherEntity:Entity, targetBoxType:Int, bailEarly:Bool):Array<EntityCollisionResult> | Takes in a group of entities, extracts their collision data, and then tests that collision data against another entity as if the collision data belonged to this<br> 		entity:EntityApi		The source entity whose collision data was responsible for the collision<br> 		result:Rectangle		A rectangle representing the overlapping space |
@@ -26,6 +27,7 @@ title: Entity
 | getCollisionBoxes(boxType:Int):Array<CollisionBox> |  |
 | getCurrentFloor():Structure |  |
 | getCurrentFrame():Int |  |
+| getCurrentWall():Structure | Returns the wall the entity is attached to. |
 | getEcbCollisionBox():CollisionBox |  |
 | getEcbFootX():Float |  |
 | getEcbFootY():Float |  |
@@ -111,5 +113,6 @@ title: Entity
 | toState(state:Int, animationOverride?:String):Void | Transitions the entity to a new state, taking into account the object's state transition map and animation rules. Note that the the target state is not guaranteed to be the current state after this function is called, so it's important to check the state after calling this function if you need to know the result.<br>Parameters:<br>- **state** - The state to transition to.<br>- **animationOverride** - Overrides the animation to use for the state transition. |
 | toggleGravity(status:Bool):Void |  |
 | unattachFromFloor():Void |  |
+| unattachFromWall():Void | Forces the current entity to unattach from a wall. |
 
 

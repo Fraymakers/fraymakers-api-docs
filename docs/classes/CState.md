@@ -16,6 +16,7 @@ title: CState
 | AIRDASH_ACCELERATING | Int | `n/a` |  |
 | AIRDASH_DECELERATING | Int | `n/a` |  |
 | AIRDASH_DELAY | Int | `n/a` |  |
+| AIRDASH_DIRECTIONAL | Int | `n/a` |  |
 | AIRDASH_ENDING | Int | `n/a` |  |
 | AIRDASH_FULL_SPEED | Int | `n/a` |  |
 | AIRDASH_INITIAL | Int | `n/a` |  |
@@ -112,6 +113,7 @@ title: CState
 | WALK_IN | Int | `n/a` |  |
 | WALK_LOOP | Int | `n/a` |  |
 | WALK_OUT | Int | `n/a` |  |
+| WALL_CLING | Int | `n/a` |  |
 | WALL_JUMP | Int | `n/a` |  |
 | WALL_JUMP_IN | Int | `n/a` |  |
 

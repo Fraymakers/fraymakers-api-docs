@@ -36,6 +36,7 @@ title: Character
 | getRawHeldControls():ControlsObject | Returns the raw held controls for the character. This data is not modified by the input buffer or any other input post-processing. |
 | getScore():Score |  |
 | getStockIconSprites():null | Returns the stock icon sprites.<br> The array `icons` corresponds to the sprites for te first four stocks<br> and `compactIcon` corresponds to the sprite displayed when at 5 or more stocks. |
+| getTotalWallClings():Int | Returns the total number of wall clings the character has performed this airtime |
 | getTotalWallJumps():Int | Returns the total number of wall jumps the character has performed this airtime |
 | getType():Int |  |
 | getVisible():Bool | Returns true if the character is visible, respects match modifiers |
@@ -67,6 +68,7 @@ title: Character
 | setDamageCounterScore(newScore:Int, options?:ScoreUpdateOptions):Void | Update the score that should be displayed on the damage counter.<br> Not necessarily the score used to determine the winner. |
 | setDoubleJumpCount(count:Int):Int |  |
 | setLives(lives:Int):Void |  |
+| setTotalWallClings(count:Int):Int | Sets the total number of wall clings the character has performed this airtime |
 | setTotalWallJumps(count:Int):Int | Sets the total number of wall jumps the character has performed this airtime |
 | toStateFromInput(state:Int, animationOverride?:String):Void | Transitions the entity to a new state, taking into account the object's state transition map and animation rules. Note that the the target state is not guaranteed to be the current state after this function is called, so it's important to check the state after calling this function if you need to know the result.<br> Respects turbo mode cancel logic<br>Parameters:<br>- **state** - The state to transition to.<br>- **animationOverride** - Overrides the animation to use for the state transition. |
 | updateAnimationStats(stats:Dynamic):Void |  |
