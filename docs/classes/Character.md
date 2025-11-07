@@ -12,6 +12,7 @@ title: Character
 | attemptStructureLedgeGrab(structure:Structure, isLeftLedge:Bool):Bool | Initiates a ledge-grab flow on a particular structure, which may or may not result in the character grabbing a ledge.<br> <br> The character's state is not taken into account, only if the structure's ledge is available.<br>Parameters:<br>- **structure** - Structure to attempt to ledge-grab<br>- **isLeftLedge** - Bool True if the left ledge is to be grabbed, False if the right ledge is to be grabbed |
 | checkZeroToDeath(foe:Character, damageThreshold?:Int):Bool | Check if eligible for zero-to-death<br> <br> <br>Parameters:<br>- **damageThreshold** - threshold damage required to be considered a zero-to-death |
 | clearInputBuffer():Void |  |
+| disableRespawnTimer():Void | Disable the respawn timer. Will be automatically be re-enabled if the character enters KO state afterwards. |
 | endAnimation():Void |  |
 | getAirdashCount():Int |  |
 | getAssistCharge():Float |  |
@@ -35,6 +36,7 @@ title: Character
 | getPressedControls():ControlsObject | Returns the pressed controls for the character. This data may be modified by the input buffer or other input post-processing. |
 | getRawHeldControls():ControlsObject | Returns the raw held controls for the character. This data is not modified by the input buffer or any other input post-processing. |
 | getScore():Score |  |
+| getStartDamage():Float | Get the damage applied at the start of each life |
 | getStockIconSprites():null | Returns the stock icon sprites.<br> The array `icons` corresponds to the sprites for te first four stocks<br> and `compactIcon` corresponds to the sprite displayed when at 5 or more stocks. |
 | getTotalWallClings():Int | Returns the total number of wall clings the character has performed this airtime |
 | getTotalWallJumps():Int | Returns the total number of wall jumps the character has performed this airtime |
@@ -44,6 +46,7 @@ title: Character
 | inAerialAttackState():Bool |  |
 | inAirdashCanceledAnimation():Bool |  |
 | inBufferInputState():Bool | Helper for determining if the character is in a state that should cause inputs to be buffered. This includes some non-state related conditions like being in hitstop or shieldstun. |
+| inDamageMode():Bool | Determine whether the character is in damage mode or is using stamina |
 | inHurtState():Bool |  |
 | inSpecialAttackState():Bool |  |
 | inStrongAttackChargeState():Bool |  |

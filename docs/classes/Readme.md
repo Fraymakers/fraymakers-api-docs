@@ -59,6 +59,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [AttackElement](AttackElement.md)
 - [AttackLimb](AttackLimb.md)
 - [AttackStrength](AttackStrength.md)
+- [BlastZoneType](BlastZoneType.md)
 - [BodyStatus](BodyStatus.md)
 - [BodyStatusColor](BodyStatusColor.md)
 - [Buttons](Buttons.md)

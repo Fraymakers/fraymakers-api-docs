@@ -53,5 +53,6 @@ title: GlobalVfx
 | SPARKLE_LIGHT | String | `n/a` |  |
 | SPIKE | String | `n/a` |  |
 | SPIKE_BACK | String | `n/a` |  |
+| STAMINA_EXPLODE | String | `n/a` |  |
 
 
