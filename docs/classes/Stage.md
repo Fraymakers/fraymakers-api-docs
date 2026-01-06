@@ -38,6 +38,6 @@ title: Stage
 | removeTimer(uid:Int):Bool |  |
 | resume():Void |  |
 | updateLightboxStats(id:Int, lightboxStats:LightboxStatsProps):Void | Not currently implemented, will have no effect. |
-| updateStageStats(stats:StageStatsProps):Void | Updates the stage's stats that are allowed to be changed. Currently, only each blast zone's type can be changed. |
+| updateStageStats(stats:StageStatsProps):Void | Updates the stage's stats that are allowed to be changed. Currently, only ambient color and each blast zone's type can be changed. |
 
 

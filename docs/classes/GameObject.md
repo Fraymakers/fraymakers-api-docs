@@ -17,7 +17,7 @@ title: GameObject
 | addDamage(dmg:Float):Float |  |
 | addStatusEffect(type:Int, value?:Float, options?:StatusEffectObjectOptions):StatusEffectObject |  |
 | applyGlobalBodyStatus(status:Int, duration:Int):BodyStatusTimer |  |
-| attemptGrab(foe:GameObject, options?:ForceGrabOptions):Bool | Attempt to grab the foe. <br> <br>Parameters:<br>- **options** - Instructions for the types of grab-safety checks to ignore |
+| attemptGrab(foe:GameObject, options?:GrabOptions):Bool | Attempt to grab the foe. <br> <br>Parameters:<br>- **options** - Instructions for the types of grab-safety checks to ignore |
 | attemptHit(target:GameObject, hitboxStats:HitboxStats, collisionResult?:CollisionResult):Bool | Initiates processing as though a hitbox=>hurtbox collision was detected. Due to validation checks during processing, a "hit" may not occur.<br>Parameters:<br>- **target** - GameObject receiving the hit<br>- **hitboxStats** - Stats that determine the effect of the "hit"<br>- **collisionResult** - Optional object containing "boxes" that represent the positional information of any involved hitboxes during the hit. Can be useful for generating spatially aware hit effects, and will automatically adjust built-in hit effect positioning to the specified overlap box. |
 | findStatusEffectObjectsByTag(type:Int, tag:String):Array<StatusEffectObject> |  |
 | forceStartHitstop(value:Int, shake:Bool):Void | Forcibly starts a new set of hitstop. <br> @see GameObjectEvent.HITSTOP_END<br> @see GameObjectEvent.HITSTOP_START<br>Parameters:<br>- **value** - Duration in frames<br>- **shake** - True if camera should shake |
@@ -37,6 +37,8 @@ title: GameObject
 | getHitstop():Int |  |
 | getHitstun():Int |  |
 | getOffscreenIndicator():OffscreenIndicator |  |
+| getOriginalOwner():GameObject |  |
+| getOriginalOwnerState():Int |  |
 | getOwner():GameObject |  |
 | getPlayerBorder():PlayerBorder |  |
 | getRootOwner():GameObject |  |

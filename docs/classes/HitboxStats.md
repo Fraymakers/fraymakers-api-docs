@@ -19,6 +19,7 @@ title: HitboxStats
 | buryTimeScaling | Float | `1.0` | Amount of extra frames a buried target will stay buried for; a scaling applied to the target's percent. |
 | buryType | Int | `null` | Bury settings. Only affects Characters.<br> @see BuryType |
 | cameraShakeType | Float | `null` | Specifies the camera shake behavior for the hit. |
+| canParrySteal | Bool | `true` | When true, characters parrying this hitbox will be able to gain assist charge. |
 | damage | Float | `0` | The amount of damage that the hitbox deals to foes. |
 | directionalInfluence | Bool | `true` | Setting to false will disable post-hitstop directional influence among hit foes. |
 | disabled | Bool | `false` | If true, the hitbox will behave as though it did not exist (it will not interact with other boxes). |

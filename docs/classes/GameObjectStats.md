@@ -39,11 +39,13 @@ Stats for a tangible ingame object that appears in a match.
 | immovable | Bool | `false` | Immovable objects are immune to windboxes and cannot be pushed by other solid entities. They will still push other solid objects if both the object and animation's solid stat is true. |
 | initialState | Int | `-1` | The initial state the object should be set to. |
 | metadata | Dynamic | `null` | Additional Metadata |
+| outgoingCollisionBoxDetection | Bool | `true` | Whether or not to enable outgoing collision box hit detection against other game objects. Can be used to optimize performance on game objects that don't need to interact with other objects, while other objects should still be able to affect this object. This stat is immutable internally and will have no effect when modified after the object has been created. |
 | shadows | Bool | `true` | Whether or not to enable shadows globally on the game object. |
 | solid | Bool | `true` | Solid entities' animations push other solid objects away unless their immovable stat true, and can be pushed by other solid objects unless their own immovable stat is true. |
 | spriteContent | String | `null` | Content id path of the sprite to load for this GameObject |
 | stateTransitionMapOverrides | StateTransitionMap | `null` | Map of states to animations/callbacks |
 | terminalVelocity | Float | `0` | The terminal velocity of the owner Entity. This is the maximum limit to the speed at which an Entity can fall. Please note however that knockback is not taken into account. |
+| terminalVelocityRising | Float | `null` | The rising terminal velocity of the owner Entity, which only takes effect during reversed gravity. This is the maximum limit to the speed at which an Entity can rise. Please note however that knockback is not taken into account. |
 | weight | Float | `100` | Used to determine how hard the ground shakes when the Entity lands or hits a wall, also used to determine how light the Entity is for knockback velocity purposes. |
 
 

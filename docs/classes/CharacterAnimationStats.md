@@ -19,6 +19,11 @@ title: CharacterAnimationStats
 | doubleJumpCancel | Bool | `false` | Set to true to make upward momentum from a double jump cancel when this move is used. |
 | grabLedgeBehind | Bool | `true` | If set to true the entity will be able to grab ledges from behind them if the type of object allows. |
 | grabLedgeRising | Bool | `false` | If set to true the entity will be able to grab ledges while rising. |
+| grabbableAreaType | GrabbableAreaType | `GrabbableAreaType.AUTO` | Determines the type of collision box that can be grabbed.<br> @see: GrabbableAreaType |
+| grabbableHeight | Float | `null` | Override for the height of the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
+| grabbableWidth | Float | `null` | Override for the width of the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
+| grabbableXOffset | Float | `null` | Override for the horizontal offset of the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
+| grabbableYOffset | Float | `null` | Override for the vertical offset of the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
 | leaveGroundAnimation | String | `null` |  |
 | leaveGroundType | LeaveGroundType | `LeaveGroundType.TO_FALL` | Determines the behaviour of the Character when becoming airborne.<br> @see LeaveGroundType |
 | singleUse | Bool | `false` | Set to true for attack animations that can only be used once when initiated in mid-air. |

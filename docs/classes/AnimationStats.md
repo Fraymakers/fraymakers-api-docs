@@ -43,6 +43,7 @@ AnimationStats is the base class for animation behavior of GameObjects.
 | solid | Bool | `true` | Set to true and the object will push other solid animations when hurtboxes overlap, unless those objects are immovable or non-solid. |
 | storedChargePercent | Float | `0` | Not to be set directly - tracks the previously stored charge percentage |
 | terminalVelocity | Float | `-1` | Terminal velocity override for this animation. Resorts to default terminalVelocity GameObject stat when set to a negative value. |
+| terminalVelocityRising | Float | `null` | Rising terminal velocity override for this animation, which only takes effect during reversed gravity. Resorts to default terminalVelocityRising GameObject stat when set to null. |
 | xSpeedConservation | Float | `1` | Percentage of non-KB X Speed kept on frame 1 |
 | ySpeedConservation | Float | `1` | Percentage of non-KB Y Speed kept on frame 1 |
 

@@ -15,5 +15,7 @@ title: Random
 | getUnseededInt(from:Int, to:Int):Int |  |
 | getUnseededValue():Float |  |
 | getValue():Float |  |
+| shuffle(arr:Array<Dynamic>):Void |  |
+| shuffleUnseeded(arr:Array<Dynamic>):Void |  |
 
 

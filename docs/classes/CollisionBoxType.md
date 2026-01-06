@@ -16,6 +16,7 @@ title: CollisionBoxType
 | CUSTOMC | Int | `99` |  |
 | ECB | Int | `-3` |  |
 | GRAB | Int | `5` |  |
+| GRABBABLE | Int | `16` |  |
 | GRABHOLD | Int | `6` |  |
 | HIT | Int | `2` |  |
 | HURT | Int | `1` |  |

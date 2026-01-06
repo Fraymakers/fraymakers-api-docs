@@ -38,6 +38,11 @@ title: CharacterStats
 | getupRollSpeedLength | Int | `1` | How many frames of speed are applied during getup roll. |
 | getupRollSpeedStartFrame | Int | `2` | Frame that getup roll speed begins to be applied on. |
 | grabAirType | Int | `null` | The behaviour of performing GRAB while midair |
+| grabbableAreaType | Int | `null` | The type of collision box that can be grabbed.<br> @see: GrabbableAreaType |
+| grabbableHeight | Float | `80` | Height for the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
+| grabbableWidth | Float | `25` | Width for the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
+| grabbableXOffset | Float | `-12.5` | Horizontal offset for the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
+| grabbableYOffset | Float | `-80` | Vertical offset for the default grabbable area when grabbableAreaType is GRABBABLE. Relative to the origin. Can override by having any grabbable boxes baked into the animation. |
 | holdToJump | Bool | `false` | If set to true, jumps after the second can be performed by holding jump. |
 | hurtHeavySilenceRate | Float | `0.5` | The rate at which calls to playHurtHeavyVoice() should result in silence. |
 | hurtHeavyVoiceIds | Array<String> | `null` | List of hurt heavy voice content ids. Calls to playHurtHeavyVoice() will choose one of these audio clips at random. |

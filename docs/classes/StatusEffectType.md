@@ -56,6 +56,7 @@ title: StatusEffectType
 | SHORT_HOP_SPEED_MULTIPLIER | Int | `n/a` |  |
 | SIZE_MULTIPLIER | Int | `n/a` |  |
 | TERMINAL_VELOCITY_MULTIPLIER | Int | `n/a` |  |
+| TERMINAL_VELOCITY_RISING_MULTIPLIER | Int | `n/a` |  |
 | TIME_FREEZE | Int | `n/a` |  |
 | WALK_SPEED_CAP_MULTIPLIER | Int | `n/a` |  |
 | WALK_SPEED_INITIAL_MULTIPLIER | Int | `n/a` |  |
