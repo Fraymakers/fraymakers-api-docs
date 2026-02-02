@@ -129,6 +129,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [Point](Point.md)
 - [Random](Random.md)
 - [Rectangle](Rectangle.md)
+- [Shake](Shake.md)
 - [StringMap](StringMap.md)
 - [Std](Std.md)
 

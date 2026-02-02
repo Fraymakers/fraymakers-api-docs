@@ -53,6 +53,7 @@ title: GameObject
 | moveScaled(x:Float, y:Float):Void |  |
 | pause():Void |  |
 | reactivateHitboxes():Void | Refreshes the attack's UID allowing it to hit again. |
+| registerHit(attackId:Int):Void |  |
 | releaseAllCharacters(grabReleaseKb?:Bool):Void |  |
 | releaseCharacter(character:Character, grabReleaseKb?:Bool):Void |  |
 | removeStatusEffect(type:Int, id:String):Bool |  |

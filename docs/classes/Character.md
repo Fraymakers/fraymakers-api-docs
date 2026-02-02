@@ -16,6 +16,7 @@ title: Character
 | clearInputBuffer():Void |  |
 | disableRespawnTimer():Void | Disable the respawn timer. Will be automatically be re-enabled if the character enters KO state afterwards. |
 | endAnimation():Void |  |
+| forceLand(options:ForceLandOptions):Void | This function does the necessary functions on landing like resetting your jumps, disabling your fastfall, etc.<br> This also dispatches GameObjectEvent.LAND events.<br> Also note that this function automatically calls preLand()<br>Parameters:<br>- **effect** - Whether to play the default vfx on land.<br>- **playLandAnimation** - Whether to play the land animation, respects animation stats. |
 | getAirdashCount():Int |  |
 | getAssistCharge():Float |  |
 | getAssistChargeLevel():Int | Returns how many assist charge levels have been passed. Reaching full bar also counts as a level. |
@@ -64,7 +65,7 @@ title: Character
 | playHurtLightVoice():Void |  |
 | playHurtMediumVoice():Void |  |
 | playKoVoice():Void |  |
-| preLand(effect?:Bool):Void | This function does the necessary functions pre-landing like resetting your jumps, disabling your fastfall, etc.<br> Note that running this function by itself will not actually put you in a landing animation necessarily.<br> Also note that this function runs automatically when calling toLand() |
+| preLand(effect?:Bool):Void | This function does the necessary functions pre-landing like resetting your jumps, disabling your fastfall, etc.<br> Note that running this function by itself will not actually put you in a landing animation necessarily.<br> Also note that this function runs automatically when calling forceLand() |
 | pressedStrongAttack():Int | Checks if character has made the necessary inputs for a STRONG.<br> <br> Use StrongInputType to check return values |
 | releaseLedge():Void |  |
 | removeAssistChargeDivider(percentage:Float):Void | Removes an assist bar divider from specified charge percentage if one is found.<br>Parameters:<br>- **percentage** - 0 -> 1 value. 0 representing an empty bar and 1 a full bar. |
