@@ -20,6 +20,7 @@ title: GlobalSfx
 | CROUCH | String | `n/a` |  |
 | DOUBLE_JUMP | String | `n/a` |  |
 | FATAL_BASH | String | `n/a` |  |
+| FATAL_DARKNESS_HIT | String | `n/a` |  |
 | FATAL_ELECTRIC_HIT | String | `n/a` |  |
 | FATAL_FIRE_HIT | String | `n/a` |  |
 | FATAL_ICE_HIT | String | `n/a` |  |
@@ -29,11 +30,14 @@ title: GlobalSfx
 | FATAL_PUNCH | String | `n/a` |  |
 | FATAL_SLAM | String | `n/a` |  |
 | FATAL_SLICE | String | `n/a` |  |
+| FATAL_WATER_HIT | String | `n/a` |  |
 | FATAL_WHACK | String | `n/a` |  |
+| FATAL_WIND_HIT | String | `n/a` |  |
 | GRAB_CONFIRM | String | `n/a` |  |
 | GROUNDED_SPIKE | String | `n/a` |  |
 | GROUND_BOUNCE | String | `n/a` |  |
 | HEAVY_BASH | String | `n/a` |  |
+| HEAVY_DARKNESS_HIT | String | `n/a` |  |
 | HEAVY_ELECTRIC_HIT | String | `n/a` |  |
 | HEAVY_FIRE_HIT | String | `n/a` |  |
 | HEAVY_ICE_HIT | String | `n/a` |  |
@@ -43,7 +47,9 @@ title: GlobalSfx
 | HEAVY_PUNCH | String | `n/a` |  |
 | HEAVY_SLAM | String | `n/a` |  |
 | HEAVY_SLICE | String | `n/a` |  |
+| HEAVY_WATER_HIT | String | `n/a` |  |
 | HEAVY_WHACK | String | `n/a` |  |
+| HEAVY_WIND_HIT | String | `n/a` |  |
 | HIT_HEAVY | String | `n/a` |  |
 | HIT_LIGHT | String | `n/a` |  |
 | HIT_MEDIUM | String | `n/a` |  |
@@ -53,6 +59,7 @@ title: GlobalSfx
 | LAND | String | `n/a` |  |
 | LEDGE_GRAB | String | `n/a` |  |
 | LIGHT_BASH | String | `n/a` |  |
+| LIGHT_DARKNESS_HIT | String | `n/a` |  |
 | LIGHT_ELECTRIC_HIT | String | `n/a` |  |
 | LIGHT_FIRE_HIT | String | `n/a` |  |
 | LIGHT_ICE_HIT | String | `n/a` |  |
@@ -62,8 +69,11 @@ title: GlobalSfx
 | LIGHT_PUNCH | String | `n/a` |  |
 | LIGHT_SLAM | String | `n/a` |  |
 | LIGHT_SLICE | String | `n/a` |  |
+| LIGHT_WATER_HIT | String | `n/a` |  |
 | LIGHT_WHACK | String | `n/a` |  |
+| LIGHT_WIND_HIT | String | `n/a` |  |
 | MEDIUM_BASH | String | `n/a` |  |
+| MEDIUM_DARKNESS_HIT | String | `n/a` |  |
 | MEDIUM_ELECTRIC_HIT | String | `n/a` |  |
 | MEDIUM_FIRE_HIT | String | `n/a` |  |
 | MEDIUM_ICE_HIT | String | `n/a` |  |
@@ -73,7 +83,9 @@ title: GlobalSfx
 | MEDIUM_PUNCH | String | `n/a` |  |
 | MEDIUM_SLAM | String | `n/a` |  |
 | MEDIUM_SLICE | String | `n/a` |  |
+| MEDIUM_WATER_HIT | String | `n/a` |  |
 | MEDIUM_WHACK | String | `n/a` |  |
+| MEDIUM_WIND_HIT | String | `n/a` |  |
 | MENU_CANCEL | String | `n/a` |  |
 | MENU_CLICK | String | `n/a` |  |
 | MENU_COSTUME_DOWN | String | `n/a` |  |
@@ -103,5 +115,12 @@ title: GlobalSfx
 | WHOOSH_1 | String | `n/a` |  |
 | WHOOSH_2 | String | `n/a` |  |
 | WHOOSH_3 | String | `n/a` |  |
+
+
+## Static Functions
+
+| Function Name | Description |
+| --------------- | ------------- |
+| constToString(value:String):String | Translates constant to a user-readable string. |
 
 
