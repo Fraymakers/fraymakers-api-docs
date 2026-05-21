@@ -34,6 +34,7 @@ title: GameObject
 | getGameObjectStat(name:String):Dynamic |  |
 | getGameObjectStatsMetadata():Dynamic |  |
 | getGrabbedFoe():GameObject | Returns the first grabbed foe in the grabbed foes array. |
+| getHitboxStats(id:Int, animationOverride?:String):HitboxStats | Get the hitbox stats of the current animation<br> <br> If an animation is provided, will get the default hitbox stats of that animation instead<br>Parameters:<br>- **id** - hitbox index to query for<br>- **animationOverride** - optional animation to check for |
 | getHitstop():Int |  |
 | getHitstun():Int |  |
 | getOffscreenIndicator():OffscreenIndicator |  |
@@ -52,6 +53,10 @@ title: GameObject
 | hasBodyStatus(flags:Int):Bool |  |
 | moveScaled(x:Float, y:Float):Void |  |
 | pause():Void |  |
+| projectedXOffset(frames:Int, opts?:ProjectDistanceOpts):Float | Returns the predictive X offset of the GameObject, accounting for both normal velocity and knockback velocity.<br>Parameters:<br>- **frames** - Frames to project<br>- **opts** - projection options @see ProjectDistanceOpts |
+| projectedXPosition(frames:Int, opts?:ProjectDistanceOpts):Float | Returns the predictive X position of the GameObject, accounting for both normal velocity and knockback velocity.<br>Parameters:<br>- **frames** - Frames to project<br>- **opts** - projection options @see ProjectDistanceOpts |
+| projectedYOffset(frames:Int, opts?:ProjectDistanceOpts):Float | Returns the predictive Y offset of the GameObject, accounting for both normal velocity and knockback velocity.<br>Parameters:<br>- **frames** - Frames to project<br>- **opts** - projection options @see ProjectDistanceOpts |
+| projectedYPosition(frames:Int, opts?:ProjectDistanceOpts):Float | Returns the predictive Y position of the GameObject, accounting for both normal velocity and knockback velocity.<br>Parameters:<br>- **frames** - Frames to project<br>- **opts** - projection options @see ProjectDistanceOpts |
 | reactivateHitboxes():Void | Refreshes the attack's UID allowing it to hit again. |
 | registerHit(attackId:Int):Void |  |
 | releaseAllCharacters(grabReleaseKb?:Bool):Void |  |
@@ -73,6 +78,7 @@ title: GameObject
 | setYVelocityScaled(velocity:Float):Float |  |
 | startHitstop(value:Int, shake:Bool):Bool | Attempts to start a new set of hitstop. Only starts a new set of hitstop if the new value is greater than the existing value. <br> @see GameObjectEvent.HITSTOP_END<br> @see GameObjectEvent.HITSTOP_START<br>Parameters:<br>- **value** - Duration in frames<br>- **shake** - True if camera should shake |
 | startHitstun(value:Int):Bool | Attempts to start a new set of hitstun. Only starts a new set of hitstun if the new value is greater than the existing value. <br> @see GameObjectEvent.ENTER_HITSTUN<br> @see GameObjectEvent.EXIT_HITSTUN<br>Parameters:<br>- **value** - Duration in frames |
+| syncHitboxStats(stats:HitboxStats):Void | Align hitbox stats with the current animation. <br> For example will ensure matching attackId and apply any charge multipliers<br>Parameters:<br>- **stats** - hitbox stats to apply the sync |
 | takeHit(hitboxStats:HitboxStats, collisionResult?:CollisionResult):Bool |  |
 | updateAnimationStats(stats:AnimationStatsProps):Void |  |
 | updateAnimationStatsMetadata(stats:Dynamic):Void |  |

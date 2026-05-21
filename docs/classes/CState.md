@@ -39,6 +39,7 @@ title: CState
 | EMOTE | Int | `n/a` |  |
 | FALL | Int | `n/a` |  |
 | FALL_SPECIAL | Int | `n/a` |  |
+| FROZEN | Int | `n/a` |  |
 | GRAB | Int | `n/a` |  |
 | GRAB_HOLD | Int | `n/a` |  |
 | GRAB_PUMMEL | Int | `n/a` |  |

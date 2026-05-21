@@ -12,6 +12,8 @@ AnimationStats is the base class for animation behavior of GameObjects.
 | aerialFriction | Float | `-1` | Aerial friction override for this animation. Resorts to default aerialFriction GameObject stat when set to a negative value. |
 | aerialSpeedAcceleration | Float | `-1` | Air speed acceleration override for this animation. Resorts to default aerialSpeedAcceleration GameObject stat when set to a negative value. |
 | aerialSpeedCap | Float | `-1` | Maximum air speed limit override for this animation. Resorts to default aerialSpeedCap GameObject stat when set to a negative value. |
+| allowFloorAttach | Bool | `null` | When true, the entity will be able to attach to floors both automatically and manually. Otherwise will always treat as aerial and not attached to anything. Resorts to default GameObjectStat value when set to null |
+| allowWallAttach | Bool | `null` | When true, the entity will be able to attach to walls both automatically (while grazing) and manually. Resorts to default GameObjectStat value when set to null |
 | attackId | Int | `0` | Not to be set directly - unique attackId for the attack |
 | autoRotate | Bool | `false` | If true, the entity's body rotates to match momentum. |
 | bodyStatus | BodyStatus | `BodyStatus.NONE` | Override's the BodyStatus of the Entity for the duration of the animation. |

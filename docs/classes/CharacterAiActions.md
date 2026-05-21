@@ -39,9 +39,11 @@ title: CharacterAiActions
 | SPECIAL_DOWN | Int | `n/a` |  |
 | SPECIAL_DOWN_AIR | Int | `n/a` |  |
 | SPECIAL_LEFT | Int | `n/a` |  |
+| SPECIAL_LEFT_AIR | Int | `n/a` |  |
 | SPECIAL_NEUTRAL | Int | `n/a` |  |
 | SPECIAL_NEUTRAL_AIR | Int | `n/a` |  |
 | SPECIAL_RIGHT | Int | `n/a` |  |
+| SPECIAL_RIGHT_AIR | Int | `n/a` |  |
 | SPECIAL_SIDE | Int | `n/a` |  |
 | SPECIAL_SIDE_AIR | Int | `n/a` |  |
 | SPECIAL_UP | Int | `n/a` |  |

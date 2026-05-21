@@ -73,6 +73,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [DisplayMode](DisplayMode.md)
 - [EntityType](EntityType.md)
 - [EntityHitCondition](EntityHitCondition.md)
+- [FreezeType](FreezeType.md)
 - [GlobalSfx](GlobalSfx.md)
 - [GlobalVfx](GlobalVfx.md)
 - [GrabAirType](GrabAirType.md)
@@ -102,6 +103,7 @@ See below for a list of all available classes available in the Fraymakers API.
 - [AudioClip](AudioClip.md)
 - [BodyStatusTimer](BodyStatusTimer.md)
 - [Camera](Camera.md)
+- [CharacterAiActions](CharacterAiActions.md)
 - [CharacterAiScript](CharacterAiScript.md)
 - [CollisionBox](CollisionBox.md)
 - [CollisionResult](CollisionResult.md)
@@ -183,3 +185,4 @@ See below for a list of all available classes available in the Fraymakers API.
 - [GraphicsSettings](GraphicsSettings.md)
 - [Resource](Resource.md)
 - [StatsFile](StatsFile.md)
+

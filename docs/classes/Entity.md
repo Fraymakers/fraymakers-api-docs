@@ -29,6 +29,7 @@ title: Entity
 | getCurrentFrame():Int |  |
 | getCurrentWall():Structure | Returns the wall the entity is attached to. |
 | getEcbCollisionBox():CollisionBox |  |
+| getEcbCollisionBoxScaled():CollisionBox |  |
 | getEcbFootX():Float |  |
 | getEcbFootY():Float |  |
 | getEcbHeadX():Float |  |

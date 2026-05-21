@@ -27,6 +27,7 @@ title: HitboxStats
 | entityHitConditions | Int | `null` | Whether or not the hitbox should interact with foes of a certain object type. Multiple conditions can be combined using the | operator.<br> For more complex conditions, should use the HITBOX_CONNECTED event to update the disabled field of hitbox stats.<br> <br> @see EntityHitCondition |
 | flinch | Bool | `true` | Setting to false will make the move not break grabs nor send the foe into the hurt animation. |
 | forceTumbleFall | Bool | `false` | @deprecated When true, the attack will always cause foes to go into their tumble state when hit. This stat has been deprecated, please use tumbleType stat instead |
+| freezeType | Int | `null` | Freeze settings. Only affects hitting Characters.<br> @see FreezeType |
 | hitEffectOverride | String | `null` | Use a custom hit Vfx. By default, the engine assumes this is an animation name from from the GlobalVfx sprite (See GlobalVfx constnats). You can however use other Vfx animations by specifying the full content id of the Vfx sprite followed by a hash "#" specifying the animation you want to play. (e.g. "namespace::resource.spriteId#animationId") |
 | hitSoundOverride | String | `null` | Instead of using the automatic hitsound calc (uses element and hitstrength). |
 | hitSoundOverrideArray | Array<String> | `null` | Instead of using the automatic hitsound calc or sound override, plays random sound id from array. |
@@ -53,6 +54,7 @@ title: HitboxStats
 | selfHitstop | Int | `-1` | Determines how many frames the attacker will be held in place before knockback is applied. When negative this value is automatically calculated. |
 | selfHitstopOffset | Int | `0` | Used in conjunction with a negative selfHitstop stat, adds a flat amount of hitstop independent of how selfHitstop is calculated. |
 | shieldDamageMultiplier | Float | `1` | Multiplier for shield damage. |
+| shieldHitstop | Int | `-1` | Determines how many frames the shielding victim will be held in place before knockback is applied. When negative, the default hitstop value is used. |
 | shieldable | Bool | `true` | When true, the hitbox is able to be shielded by foes. |
 | shieldstunMultiplier | Float | `1` | Multiplier for shieldstun. |
 | stackKnockback | Bool | `true` | Setting to false will disable knockback stacking. |

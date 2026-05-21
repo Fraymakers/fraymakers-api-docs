@@ -27,13 +27,17 @@ title: CharacterStats
 | buryFrame | Int | `13` | The frame of the buryAnimation to be used while buried. |
 | buryOffsetY | Float | `0.0` | Vertical offset for the bury animation, relative to their ECB's vertical midpoint. |
 | crawlSpeed | Float | `0` | Character's crawl speed. Set to 0 to disable crawling. |
-| dashSpeed | Float | `1` | Character's initial run speed. |
+| dashSpeed | Float | `1` | Character's initial run speed. Setting to null or Math.NaN will cause no speed changes |
 | dodgeRollSpeed | Float | `10` | Speed the character's dodge roll begins at. |
 | dodgeRollSpeedLength | Int | `1` | How many frames of speed are applied during dodge roll. |
 | dodgeRollSpeedStartFrame | Int | `3` | Frame that dodge roll speed begins to be applied on. |
-| doubleJumpSpeeds | Array<Float> | `null` | An array of the character's double jump speeds. Values less than or equal to zero will have no effect. The number of entries in the array correlates with how many double jumps the character will get from the engine. |
+| doubleJumpSpeeds | Array<Float> | `null` | An array of the character's double jump speeds. Values set to Math.NaN will cause no speed changes. The number of entries in the array correlates with how many double jumps the character will get from the engine. |
 | fastFallSpeed | Float | `15` | The speed at which a character falls during a fast fall |
 | floatDuration | Int | `0` | How long the character can float. 0 to disable. |
+| freezeEffectOffsetX | Float | `0.0` | Horizontal offset for the freeze VFX |
+| freezeEffectOffsetY | Float | `0.0` | Vertical offset for the freeze VFX |
+| freezeEffectScaleX | Float | `1.0` | Horizontal scale for the freeze VFX |
+| freezeEffectScaleY | Float | `1.0` | Vertical scale for the freeze VFX |
 | getupRollSpeed | Float | `10` | Speed the character's getup roll begins at. |
 | getupRollSpeedLength | Int | `1` | How many frames of speed are applied during getup roll. |
 | getupRollSpeedStartFrame | Int | `2` | Frame that getup roll speed begins to be applied on. |
@@ -65,7 +69,7 @@ title: CharacterStats
 | name | String | `null` | The unique name of the character. Used for finding the object. |
 | runSpeedAcceleration | Float | `1` | Character's run speed acceleration. |
 | runSpeedCap | Float | `1` | Character's max run speed. |
-| runSpeedInitial | Float | `1` | Character's initial run speed (post-turn only). |
+| runSpeedInitial | Float | `1` | Character's initial run speed (post-turn only). Setting to null or Math.NaN will cause no speed changes |
 | shieldAirType | Int | `null` | The behaviour of performing SHIELD while midair |
 | shieldBackHeight | Float | `90` | Height of the back shield graphic |
 | shieldBackNineSliceContent | String | `"global::vfx.vfx_shield_back"` | Nine slice to use for the back shield |

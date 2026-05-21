@@ -9,6 +9,8 @@ title: GlobalVfx
 | ------------ | ------ | --------------- | ------------- |
 | AIRDASH | String | `n/a` |  |
 | AIRDASH_BACK | String | `n/a` |  |
+| BURY | String | `n/a` |  |
+| BURY_BACK | String | `n/a` |  |
 | CLANK | String | `n/a` |  |
 | CRASH_BOUNCE | String | `n/a` |  |
 | CRASH_BOUNCE_BACK | String | `n/a` |  |
@@ -26,6 +28,10 @@ title: GlobalVfx
 | FATAL_NORMAL_ANGLED_HIT_BACK | String | `n/a` |  |
 | FATAL_NORMAL_HIT | String | `n/a` |  |
 | FATAL_NORMAL_HIT_BACK | String | `n/a` |  |
+| FREEZE | String | `n/a` |  |
+| FREEZE_BACK | String | `n/a` |  |
+| FREEZE_IN | String | `n/a` |  |
+| FREEZE_IN_BACK | String | `n/a` |  |
 | GROUNDED_SPIKE | String | `n/a` |  |
 | GROUNDED_SPIKE_BACK | String | `n/a` |  |
 | GROUND_BOUNCE | String | `n/a` |  |
@@ -54,5 +60,16 @@ title: GlobalVfx
 | SPIKE | String | `n/a` |  |
 | SPIKE_BACK | String | `n/a` |  |
 | STAMINA_EXPLODE | String | `n/a` |  |
+| UNBURY | String | `n/a` |  |
+| UNBURY_BACK | String | `n/a` |  |
+| UNFREEZE | String | `n/a` |  |
+| UNFREEZE_BACK | String | `n/a` |  |
+
+
+## Static Functions
+
+| Function Name | Description |
+| --------------- | ------------- |
+| constToString(value:String):String | Translates constant to a user-readable string. |
 
 

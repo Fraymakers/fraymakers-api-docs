@@ -34,6 +34,7 @@ title: Match
 | getCharacters():Array<Character> |  |
 | getCollisionAreaByName(name:String):CollisionArea |  |
 | getCollisionAreas():Array<CollisionArea> |  |
+| getCollisionAreasByName(name:String):Array<CollisionArea> |  |
 | getCustomGameObjects():Array<CustomGameObject> |  |
 | getElapsedFrames():Int | Returns the amount of frames that have elapsed since the match started. |
 | getMatchSettingsConfig():MatchSettingsConfig |  |
@@ -43,7 +44,7 @@ title: Match
 | getStructures():Array<Structure> |  |
 | getTimeLeft():Int | Returns time (in frames) left in the match |
 | hasEventListener(type:Int, func?:Listener):Bool |  |
-| hasModifier(modifier:Int):Bool | Returns true if the provided match modifier is active.<br> @see MatchModifier<br>Parameters:<br>- **modifier** - The match modifier to check for |
+| hasModifier(modifier:Int):Bool | Returns true if the provided match modifier is active.<br> @see MatchModifier<br> @see Flags<br>Parameters:<br>- **modifier** - The match modifier(s) to check for |
 | isDisposed():Bool |  |
 | isReplay():Bool |  |
 | removeEventListener(type:Int, func:Listener):Void |  |

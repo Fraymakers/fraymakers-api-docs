@@ -54,6 +54,7 @@ title: Character
 | inDamageMode():Bool | Determine whether the character is in damage mode or is using stamina |
 | inHurtState():Bool |  |
 | inSpecialAttackState():Bool |  |
+| inSpecialHurtState():Bool | Returns true if the character is in a hurt state where normal hitstun/knockback rules may not apply (i.e. bury/freeze) |
 | inStrongAttackChargeState():Bool |  |
 | isBufferInputState(state:Int):Bool | Helper for checking if a state is valid state for inputs to be buffered. |
 | isDisabledBySingleUse(state?:Int):Bool | Check if a state was used in the air while having the singleUse animation stat.<br> <br>Parameters:<br>- **state** - The state to check. If not specified, checks the current state |
